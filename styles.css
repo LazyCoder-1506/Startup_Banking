@@ -8,12 +8,14 @@ a{
   text-decoration: none !important;
 }
 
-.font_josefin{
-  font-family: 'Josefin Sans';
+.font_oswald{
+  font-family: 'Oswald';
+  font-weight: 700;
 }
 
-.font_ubuntu{
-  font-family: 'Ubuntu';
+.font_cardo{
+  font-family: 'Cardo';
+  font-weight: 200;
 }
 
 .home-section-links:hover .fa-long-arrow-right{
