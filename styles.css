@@ -8,6 +8,14 @@ a{
   text-decoration: none !important;
 }
 
+.font_josefin{
+  font-family: 'Josefin Sans';
+}
+
+.font_ubuntu{
+  font-family: 'Ubuntu';
+}
+
 .home-section-links:hover .fa-long-arrow-right{
   margin-left: 10px;
   transition: all ease 0.5s;
