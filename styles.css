@@ -1,0 +1,90 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.home-section-links:hover .fa-long-arrow-right{
+  margin-left: 10px;
+  transition: all ease 0.5s;
+}
+
+#build-section{
+  background-color: #FFE0CC;
+}
+
+#build-section-link{
+  background-color: #FFB98C;
+}
+
+#build-section-link:hover{
+  background-color: #FFA76F;
+}
+
+#launch-section{
+  background-color: #F1DFF2;
+}
+
+#launch-section-link{
+  background-color: #E9C6EA;
+}
+
+#launch-section-link:hover{
+  background-color: #DBB6DC;
+}
+
+#grow-section{
+  background-color: #DDF4DE;
+}
+
+#grow-section-link{
+  background-color: #CAE6CB;
+}
+
+#grow-section-link:hover{
+  background-color: #B3D6B4;
+}
+
+#grow2-section{
+  background-color: #DDF2F7;
+}
+
+#grow2-section-link{
+  background-color: #CCEAF2;
+}
+
+#grow2-section-link:hover{
+  background-color: #BCDCE4;
+}
+
+#grow3-section{
+  background-color: #DCDCDC;
+}
+
+#grow3-section-link{
+  background-color: #CFCFCF;
+}
+
+#grow3-section-link:hover{
+  background-color: #C4C4C4;
+}
+
+.bg_lightgrey{
+  background-color: #F8F8F8;
+}
+
+.bg_prime{
+  background-color: #31cdcc;
+}
+
+.btn:hover{
+  background-color: #29B3B2;
+}
+
+.bg_gradient{
+  background-image: linear-gradient(to right, rgba(221,242,247,1), rgba(241,223,242,1));
+}
