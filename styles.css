@@ -182,16 +182,16 @@ a{
     transform: translateX(0);
   }
 
-  #testimonial_carousel .carousel-inner .carousel-item.active, .carousel-inner .carousel-item-next, .carousel-inner .carousel-item-prev {
+  #testimonial_carousel .triple_slide .carousel-item.active, .triple_slide .carousel-item-next, .triple_slide .carousel-item-prev {
     display: flex;
   }
-  #testimonial_carousel .carousel-inner .carousel-item-right.active, .carousel-inner .carousel-item-next {
+  #testimonial_carousel .triple_slide .carousel-item-right.active, .triple_slide .carousel-item-next {
     transform: translateX(33.3333%);
   }
-  #testimonial_carousel .carousel-inner .carousel-item-left.active,  .carousel-inner .carousel-item-prev {
+  #testimonial_carousel .triple_slide .carousel-item-left.active,  .triple_slide .carousel-item-prev {
     transform: translateX(-33.3333%);
   }
-  #testimonial_carousel .carousel-inner .carousel-item-right, .carousel-inner .carousel-item-left{ 
+  #testimonial_carousel .triple_slide .carousel-item-right, .triple_slide .carousel-item-left{ 
     transform: translateX(0);
   }
 }
