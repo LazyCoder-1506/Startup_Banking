@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light bg-white navbar-expand-sm fixed-top" id = "navigation_bar">
+  <nav class="navbar navbar-light bg-white navbar-expand-sm fixed-top" id = "navigation_bar">    <!-- Navigation Bar -->
     <div class="container">
       <a class="navbar-brand mr-auto pr-3" href="#">Brand Logo</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
@@ -45,14 +45,14 @@
   </nav>
 
   <div class="container">
-    <div class="row m-0 my-5 d-none d-lg-block">
+    <div class="row m-0 my-5 d-none d-lg-block">        <!-- Top strip having only brand name and login button -->
       <div class="col-12">
         <h3 class="mr-auto d-inline"><a href="#">Brand Logo</a></h3>
         <a href="http://example.com/" class="d-inline float-right btn bg_prime text-white"><strong>Get started</strong> - it's free</a>
         <a href="http://example.com/" class="d-inline float-right btn bg_second mx-2"><strong>Login</strong></a>
       </div>
     </div>
-    <div class="row m-0">
+    <div class="row m-0">    <!-- Header section having the intro -->
       <div class="col-12 col-md-6 my-5">
         <h1 class="font_oswald" style="font-size:60px">Break the code barrier</h1>
         <p class="mb-5 font_cardo" style="font-size:20px">Build better business websites, faster.<br>Without coding.</p>
@@ -62,7 +62,7 @@
         <img src="carousel1.jpg" alt="" class="w-100">
       </div>
     </div>
-    <div class="row m-0 my-5 font_oswald">
+    <div class="row m-0 my-5 font_oswald text-center">
       <div class="col-6 col-lg-2 mb-3">
         <h2>zendesk</h2>
       </div>
@@ -82,13 +82,13 @@
         <h2>getaround</h2>
       </div>
     </div>
-    <div class="row m-0 mt-5 py-5 px-lg-5" id="build-section">
+    <div class="row m-0 mt-5 py-5 px-lg-5" id="build-section">    <!-- Complete Build Section -->
       <div class="col-12 col-md-4">
         <h1 class="font_oswald">Build</h1>
         <h6 class="mb-5">Build production-ready experiences without coding.</h6>
         <div class="row m-0 w-100 h-75">
           <div class="col-12 w-100 p-0 align-self-end">
-            <div class="my-5 bg-white p-3">
+            <div class="my-5 bg-white p-3">    <!-- white portion of -->
               <h3 class="mb-3">zendesk</h3>
               <p class="font_cardo">
                 simply dummy text of the printing and typesetting industry. 
@@ -100,9 +100,428 @@
         </div>
       </div>
       <div class="col-12 col-md-8">
-        <img class="w-100 my-5" src="carousel1.jpg" alt="carousel">
         <div class="container w-100">
           <div class="row">
+            <div class="col-12">
+                                        <!-- Build section carousel (desktop view) -->
+              <div id="build_carousel" class="carousel carousel_pc slide w-100 d-none d-lg-block" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner w-100 mx-0" role="listbox">
+                  <div class="carousel-item active">    <!-- listing 1 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">    
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Bangalore</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+            
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+            
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 2 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Mumbai</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span style="font-family: 'Oswald';">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+            
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+            
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 3 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Kolkata</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="text-white font_oswald">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev text-dark" href="#build_carousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#build_carousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+                            <!--Build section carousel (phone view)-->
+              <div id="build_carousel2" class="carousel carousel_phone slide w-100 d-block d-lg-none" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner w-100 mx-0" role="listbox">
+                  <div class="carousel-item active">    <!-- listing 1 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Bangalore</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 2 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Mumbai</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span style="font-family: 'Oswald';">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 3 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Kolkata</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="text-white font_oswald">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev text-dark" href="#build_carousel2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#build_carousel2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">    <!-- section below carousel -->
             <div class="col-12 col-md-4">
               <p><strong>The Designer</strong></p>
               <p class="font_cardo">
@@ -131,13 +550,13 @@
       </div>
     </div>
     <br>
-    <div class="row m-0 mt-5 py-5 px-lg-5" id="launch-section">
+    <div class="row m-0 mt-5 py-5 px-lg-5" id="launch-section">    <!-- launch section -->
       <div class="col-12 col-md-4">
         <h1 class="font_oswald">Launch</h1>
         <h6 class="mb-5">Go live on a fast, reliable, and hassle-free hosting network that scales with your business — with a click.</h6>
         <div class="row m-0 w-100 h-75">
           <div class="col-12 w-100 p-0 align-self-end">
-            <div class="my-5 bg-white p-3">
+            <div class="my-5 bg-white p-3">    <!-- white -->
               <h3 class="mb-3">eventbrite</h3>
               <p class="font_cardo">
                 simply dummy text of the printing and typesetting industry. 
@@ -149,9 +568,423 @@
         </div>
       </div>
       <div class="col-12 col-md-8">
-        <img class="w-100 my-5" src="carousel1.jpg" alt="carousel">
         <div class="container w-100">
           <div class="row">
+            <div class="col-12">    <!-- launch section carousel (desktop view) -->
+              <div id="launch_carousel" class="carousel carousel_pc slide w-100 d-none d-lg-block" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner w-100 mx-0" role="listbox">
+                  <div class="carousel-item active">    <!-- listing 1 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Bangalore</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 2 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Mumbai</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span style="font-family: 'Oswald';">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 3 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Kolkata</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="text-white font_oswald">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev text-dark" href="#launch_carousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#launch_carousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+                              <!-- launch section carousel (mobile view) -->
+              <div id="launch_carousel2" class="carousel carousel_phone slide w-100 d-block d-lg-none" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner w-100 mx-0" role="listbox">
+                  <div class="carousel-item active">    <!-- listing 1 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Bangalore</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 2 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Mumbai</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span style="font-family: 'Oswald';">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 3 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Kolkata</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="text-white font_oswald">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev text-dark" href="#launch_carousel2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#launch_carousel2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">    <!-- section below carousel -->
             <div class="col-12 col-md-4">
               <p><strong>Powered by Amazon Web Services</strong></p>
               <p class="font_cardo">
@@ -179,14 +1012,14 @@
         <a href="http://example.com/" class="text-dark d-block"><strong>Get started now</strong> - it's free <i class="fa fa-long-arrow-right"></i></a>
       </div>
     </div>
-    <br>
+    <br>    <!-- Grow section -->
     <div class="row m-0 mt-5 py-5 px-lg-5" id="grow-section">
       <div class="col-12 col-md-4">
         <h1 class="font_oswald">Grow</h1>
         <h6 class="mb-5">Create, launch, and iterate on new marketing campaigns without distracting your product team.</h6>
         <div class="row m-0 w-100 h-75">
           <div class="col-12 w-100 p-0 align-self-end">
-            <div class="my-5 bg-white p-3">
+            <div class="my-5 bg-white p-3">    <!-- white portion -->
               <h3 class="mb-3">lattice</h3>
               <p class="font_cardo">
                 simply dummy text of the printing and typesetting industry. 
@@ -198,9 +1031,423 @@
         </div>
       </div>
       <div class="col-12 col-md-8">
-        <img class="w-100 my-5" src="carousel1.jpg" alt="carousel">
         <div class="container w-100">
           <div class="row">
+            <div class="col-12">    <!-- grow section carousel (desktop view) -->
+              <div id="grow_carousel" class="carousel carousel_pc slide w-100 d-none d-lg-block" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner w-100 mx-0" role="listbox">
+                  <div class="carousel-item active">    <!-- listing 1 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Bangalore</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 2 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Mumbai</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span style="font-family: 'Oswald';">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 3 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Kolkata</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="text-white font_oswald">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev text-dark" href="#grow_carousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#grow_carousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+                  <!-- grow section carousel (mobile view) -->
+              <div id="grow_carousel2" class="carousel carousel_phone slide w-100 d-block d-lg-none" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner w-100 mx-0" role="listbox">
+                  <div class="carousel-item active">    <!-- listing 1 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Bangalore</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 2 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Mumbai</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span style="font-family: 'Oswald';">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 3 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Kolkata</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="text-white font_oswald">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev text-dark" href="#grow_carousel2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#grow_carousel2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">    <!-- section below carousel -->
             <div class="col-12 col-md-4">
               <p><strong>Built-in SEO tools</strong></p>
               <p class="font_cardo">
@@ -228,14 +1475,14 @@
         <a href="http://example.com/" class="text-dark d-block"><strong>Get started now</strong> - it's free <i class="fa fa-long-arrow-right"></i></a>
       </div>
     </div>
-    <br>
+    <br>    <!-- grow2 section -->
     <div class="row m-0 mt-5 py-5 px-lg-5" id="grow2-section">
       <div class="col-12 col-md-4">
-        <h1 class="font_oswald">Grow</h1>
+        <h1 class="font_oswald">Grow2</h1>
         <h6 class="mb-5">Create, launch, and iterate on new marketing campaigns without distracting your product team.</h6>
         <div class="row m-0 w-100 h-75">
           <div class="col-12 w-100 p-0 align-self-end">
-            <div class="my-5 bg-white p-3">
+            <div class="my-5 bg-white p-3">    <!-- white portion -->
               <h3 class="mb-3">lattice</h3>
               <p class="font_cardo">
                 simply dummy text of the printing and typesetting industry. 
@@ -247,9 +1494,423 @@
         </div>
       </div>
       <div class="col-12 col-md-8">
-        <img class="w-100 my-5" src="carousel1.jpg" alt="carousel">
         <div class="container w-100">
           <div class="row">
+            <div class="col-12">    <!-- grow2 carousel (desktop view) -->
+              <div id="grow2_carousel" class="carousel carousel_pc slide w-100 d-none d-lg-block" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner w-100 mx-0" role="listbox">
+                  <div class="carousel-item active">    <!-- listing 1 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Bangalore</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 2 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Mumbai</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span style="font-family: 'Oswald';">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 3 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Kolkata</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="text-white font_oswald">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev text-dark" href="#grow2_carousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#grow2_carousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+                  <!-- grow2 carousel (mobile view) -->
+              <div id="grow2_carousel2" class="carousel carousel_phone slide w-100 d-block d-lg-none" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner w-100 mx-0" role="listbox">
+                  <div class="carousel-item active">    <!-- listing 1 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Bangalore</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 2 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Mumbai</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span style="font-family: 'Oswald';">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 3 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Kolkata</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="text-white font_oswald">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev text-dark" href="#grow2_carousel2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#grow2_carousel2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">    <!-- section below carousel -->
             <div class="col-12 col-md-4">
               <p><strong>Built-in SEO tools</strong></p>
               <p class="font_cardo">
@@ -277,14 +1938,14 @@
         <a href="http://example.com/" class="text-dark d-block"><strong>Get started now</strong> - it's free <i class="fa fa-long-arrow-right"></i></a>
       </div>
     </div>
-    <br>
+    <br>    <!-- grow3 section -->
     <div class="row m-0 mt-5 py-5 px-lg-5" id="grow3-section">
       <div class="col-12 col-md-4">
-        <h1 class="font_oswald">Grow</h1>
+        <h1 class="font_oswald">Grow3</h1>
         <h6 class="mb-5">Create, launch, and iterate on new marketing campaigns without distracting your product team.</h6>
         <div class="row m-0 w-100 h-75">
           <div class="col-12 w-100 p-0 align-self-end">
-            <div class="my-5 bg-white p-3">
+            <div class="my-5 bg-white p-3">    <!-- white portion -->
               <h3 class="mb-3">lattice</h3>
               <p class="font_cardo">
                 simply dummy text of the printing and typesetting industry. 
@@ -296,9 +1957,423 @@
         </div>
       </div>
       <div class="col-12 col-md-8">
-        <img class="w-100 my-5" src="carousel1.jpg" alt="carousel">
         <div class="container w-100">
           <div class="row">
+            <div class="col-12">    <!-- grow3 carousel (desktop view) -->
+              <div id="grow3_carousel" class="carousel carousel_pc slide w-100 d-none d-lg-block" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner w-100 mx-0" role="listbox">
+                  <div class="carousel-item active">    <!-- listing 1 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Bangalore</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 2 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Mumbai</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span style="font-family: 'Oswald';">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 3 -->
+                    <div class="col-6 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Kolkata</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="text-white font_oswald">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev text-dark" href="#grow3_carousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#grow3_carousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+                  <!-- grow3 carousel (mobile view) -->
+              <div id="grow3_carousel2" class="carousel carousel_phone slide w-100 d-block d-lg-none" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner w-100 mx-0" role="listbox">
+                  <div class="carousel-item active">    <!-- listing 1 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Bangalore</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 2 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Mumbai</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span style="font-family: 'Oswald';">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span style="font-family: 'Oswald';">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="font_oswald text-white">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">    <!-- listing 3 -->
+                    <div class="col-12 w-100">
+                      <div class="card container mb-5 font_cardo">     
+                        <div class="row row-content">
+                          <div class = "col-11 mt-2 card_name text-info">
+                            <p>In Koramangala</p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-9 text-secondary card_description">
+                            <strong>Connection</strong> : Owner
+                            <br>
+                            <strong>Offer Type</strong> : Rent
+                            <br>
+                            <br>	
+                            <strong>Short Description : </strong>Located in koram…
+                          </div>
+                          <div class = "col-3 pl-0 card_img">
+                            <img width="100%" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png"/>
+                          </div>
+                        </div>
+                        <div class = "row row-content text-center">
+                          <div class = "col-4 pr-0 m-0">
+                            <a href="/forms/report"><u>Report</u></a>
+                          </div>
+                          <div class = "col-4 pr-0 m-0">
+                            <p><i class = "fa fa-map-marker text-danger d-inline"></i> Kolkata</p>
+                          </div>
+                          <div class = "col-4 m-0">
+                            <a href="/forms/report"><u>Doc Link</u></a>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0">
+                              <span class="font_oswald">Name</span> <span data-toggle = "tooltip" data-html = "true" title = "Yearly" data-placement = "top"></span>
+                              <span class = "pull-right">Anil</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Property Type</span>
+                              <span class = "pull-right">3bhk</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content card_table">
+                          <div class = "col-12 py-1 bg_lightgrey">
+                            <p class="mb-0"><span class="font_oswald">Pricing</span>
+                              <span class = "pull-right">INR 35,000</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class = "row row-content">
+                          <div class = "col-12 mr-2 mt-1">
+                            <button class = "btn btn-sm mb-2 pull-right bg_prime">
+                              <a href="#" class="text-white font_oswald">Explore</a>
+                            </button>
+                            <button class = "btn btn-sm mb-2 mr-2 pull-left font_oswald bg_prime" id="whatsappBtn-1">Send Whatsapp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev text-dark" href="#grow3_carousel2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#grow3_carousel2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">    <!-- section below carousel -->
             <div class="col-12 col-md-4">
               <p><strong>Built-in SEO tools</strong></p>
               <p class="font_cardo">
@@ -459,18 +2534,18 @@
         </div>
       </div>
     </div>
-    <div class="row m-0 bg_lightgrey py-5">
+    <div class="row m-0 bg_lightgrey py-5">    <!-- FAQ section -->
       <div class="container">
         <div class = "row row-content">
           <div class = "col-12 col-md-2">
-            <p class="font_oswald" style = "font-size : 24px; color : grey">Frequently Asked Questions</p>
+            <p class="font_oswald" style = "font-size : 24px;">Frequently Asked Questions</p>
           </div>
           <div class = "col-12 col-md-10 font_cardo">
             <div class = "row row-content pl-2">
               <a class = "faq_q mb-0 text_prime_dark" data-toggle = "collapse" href = "#faq_a1" id = "faq_q1">
                 <strong>Is SMERGERS an investment bank?</strong>
               </a>
-              <p class = "faq_a text-secondary collapse show" id = "faq_a1">
+              <p class = "faq_a collapse show" id = "faq_a1">
                 SMERGERS is an investment banking platform which aims to remove all the 
                 clutter and make quality introductions between businesses, investors, acquirers, 
                 lenders and advisors, extending beyond their geographical location.
@@ -480,19 +2555,19 @@
               <a class = "faq_q mb-0 text_prime_dark" data-toggle = "collapse" href = "#faq_a2" id = "faq_q2">
                 <strong>Is SMERGERS a ‘business for sale’ website?</strong>
               </a>
-              <p class = "faq_a text-secondary collapse show" id = "faq_a2">
+              <p class = "faq_a collapse show" id = "faq_a2">
                 Yes and no. Yes, because we have sell side profiles of businesses which are seeking a takeover. 
                 And no, because we are not a classifieds website, 
                 but a private network of members.
               </p>
             </div>
               
-            <div id = "faq_more" class = "collapse">
+            <div id = "faq_more" class = "collapse">    <!-- more FAQs part -->
               <div class = "row row-content pl-2">
                 <a class = "faq_q mb-0 text_prime_dark" data-toggle = "collapse" href = "#faq_a3" id = "faq_q3">
                   <strong>What is Business Valuation?</strong>
                 </a>
-                <p class = "faq_a text-secondary collapse show" id = "faq_a3">
+                <p class = "faq_a collapse show" id = "faq_a3">
                   Business valuation is process whereby a fair value of a company is arrived at 
                   using one or more of the valuation methodologies.
                 </p>
@@ -501,7 +2576,7 @@
                 <a class = "faq_q mb-0 text_prime_dark" data-toggle = "collapse" href = "#faq_a4" id = "faq_q4">
                   <strong>Can businesses / investors from any country register on SMERGERS?</strong>
                 </a>
-                <p class = "faq_a text-secondary collapse show" id = "faq_a4">
+                <p class = "faq_a collapse show" id = "faq_a4">
                   SMERGERS is a global platform with businesses and acquirers / 
                   investors from across the globe. Businesses and investors from any 
                   country or industry can register on SMERGERS. The only pre-requisite is 
@@ -514,7 +2589,7 @@
                 <a class = "faq_q mb-0 text_prime_dark" data-toggle = "collapse" href = "#faq_a5" id = "faq_q5">
                   <strong>Should I use SMERGERS instead of an advisor?</strong>
                 </a>
-                <p class = "faq_a text-secondary collapse show" id = "faq_a5">
+                <p class = "faq_a collapse show" id = "faq_a5">
                   You should use SMERGERS to gain qualified leads from large network of investors, 
                   buyers, lenders and advisors from across the globe. You may also want to connect with suitable advisors on 
                   SMERGERS who can help negotiate and close your deal.
@@ -635,6 +2710,23 @@
         document.getElementById("navigation_bar").style.top = "-60px";
       }
     }
+    </script>
+    <script>
+      $('.carousel_pc .carousel-item').each(function(){
+				var next = $(this).next();
+				if (!next.length) {
+				  next = $(this).siblings(':first');
+				}
+				next.children(':first-child').clone().appendTo($(this));
+				
+				for (var i=0;i<2;i++) {
+					next=next.next();
+					if (!next.length) {
+						next = $(this).siblings(':first');
+					}						
+					next.children(':first-child').clone().appendTo($(this));
+				}
+			});
     </script>
 </body>
 

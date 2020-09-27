@@ -10,12 +10,10 @@ a{
 
 .font_oswald{
   font-family: 'Oswald';
-  font-weight: 700;
 }
 
 .font_cardo{
   font-family: 'Cardo';
-  font-weight: 500;
 }
 
 .home-section-links:hover .fa-long-arrow-right{
@@ -83,7 +81,7 @@ a{
 }
 
 .bg_lightgrey{
-  background-color: #F8F8F8;
+  background-color: #f1f1f1;
 }
 
 .bg_prime{
@@ -128,11 +126,59 @@ a{
   font-weight: 600;
 }
 .nav-link:hover{
-  color: rgba(49,204,205,1) !important;
+  color: rgba(41,179,178,1) !important;
 }
-.nav-link:focus{
-  color: rgba(49,204,205,1) !important;
+
+.card{
+  border: 2px solid #31cdcc;
+  font-size: 0.8rem;
 }
-.nav-link:after{
-  color: rgba(49,204,205,1) !important;
+
+.carousel-control-prev
+{
+  background-color : #31cdcc;
+  left : 0;
+  height : 10%;
+  top : 40%;
+  opacity : 1;
+  width : 5%;
+}
+
+.carousel-control-prev:hover
+{
+  opacity : 1;
+  background-color : #29b3b2;
+}
+
+.carousel-control-next
+{
+  background-color : #31cdcc;
+  right : 0;
+  height : 10%;
+  top : 40%;
+  opacity : 1;
+  width : 5%;
+}
+
+.carousel-control-next:hover
+{
+  opacity : 1;
+  background-color : #29b3b2;
+}
+
+/* Carousel */
+@media (min-width: 900px) {
+
+  .carousel-inner .carousel-item.active, .carousel-inner .carousel-item-next, .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+  .carousel-inner .carousel-item-right.active, .carousel-inner .carousel-item-next {
+    transform: translateX(50%);
+  }
+  .carousel-inner .carousel-item-left.active,  .carousel-inner .carousel-item-prev {
+    transform: translateX(-50%);
+  }
+  .carousel-inner .carousel-item-right, .carousel-inner .carousel-item-left{ 
+    transform: translateX(0);
+  }
 }
