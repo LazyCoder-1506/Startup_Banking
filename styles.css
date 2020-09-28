@@ -76,6 +76,9 @@ a{
   background-color: #C4C4C4;
 }
 
+.text_prime{
+  color: #31cdcc;
+}
 .text_prime_dark{
   color: #29b3b2;
 }
@@ -195,4 +198,28 @@ a{
   #testimonial_carousel .triple_slide .carousel-item-right, .triple_slide .carousel-item-left{ 
     transform: translateX(0);
   }
+}
+
+/* Single listing page CSS */
+#single_listing_body{
+  padding-top: 50px;
+  background-color: lightgray;
+}
+
+#single_listing_container{
+  box-shadow: 0px 0px 10px grey;
+}
+
+.border-bottom-thin{
+  border-bottom: 1px solid lightgrey;
+}
+
+.listing-side-link:hover{
+  background-color: #f1f1f1;
+}
+
+.listing-notes{
+  border-radius: 10px;
+  border: 2px solid #31cdcc;
+  box-shadow: 0px 5px 10px #29B3B2;
 }
