@@ -115,9 +115,10 @@ a{
 .bg_second:hover{
   background-color: #D3FFFF;
 }
-
-#navigation_bar{
+.navbar{
   border-bottom: 1px solid lightgrey;
+}
+#navigation_bar_home{
   top : -60px;
 }
 

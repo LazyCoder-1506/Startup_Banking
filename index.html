@@ -13,8 +13,6 @@
     <!--Font Awesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Fonts-->
-  <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet'>
     <!--Custom css-->
@@ -22,7 +20,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light bg-white navbar-expand-sm fixed-top" id = "navigation_bar">    <!-- Navigation Bar -->
+  <nav class="navbar navbar-light bg-white navbar-expand-sm fixed-top" id = "navigation_bar_home">    <!-- Navigation Bar -->
     <div class="container">
       <a class="navbar-brand mr-auto pr-3" href="#">Brand Logo</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
@@ -3129,9 +3127,9 @@
     
     function scrollFunction() {
       if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-        document.getElementById("navigation_bar").style.top = "0";
+        document.getElementById("navigation_bar_home").style.top = "0";
       } else {
-        document.getElementById("navigation_bar").style.top = "-60px";
+        document.getElementById("navigation_bar_home").style.top = "-60px";
       }
     }
     </script>
