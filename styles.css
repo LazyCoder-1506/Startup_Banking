@@ -31,16 +31,16 @@ a{
   background-color: #31cdcc;
 }
 
+.btn:hover{
+  background-color: #29B3B2;
+}
+
 .bg_second{
   background-color: white;
   color : #31cdcc;
 }
 .bg_second:hover{
   background-color: #D3FFFF;
-}
-
-.btn:hover{
-  background-color: #29B3B2;
 }
 
 .bg_gradient{
@@ -208,16 +208,16 @@ a{
     transform: translateX(0);
   }
 
-  #testimonial_carousel .triple_slide .carousel-item.active, .triple_slide .carousel-item-next, .triple_slide .carousel-item-prev {
+  #notes_carousel .triple_slide .carousel-item.active, .triple_slide .carousel-item-next, .triple_slide .carousel-item-prev {
     display: flex;
   }
-  #testimonial_carousel .triple_slide .carousel-item-right.active, .triple_slide .carousel-item-next {
+  #notes_carousel .triple_slide .carousel-item-right.active, .triple_slide .carousel-item-next {
     transform: translateX(33.3333%);
   }
-  #testimonial_carousel .triple_slide .carousel-item-left.active,  .triple_slide .carousel-item-prev {
+  #notes_carousel .triple_slide .carousel-item-left.active,  .triple_slide .carousel-item-prev {
     transform: translateX(-33.3333%);
   }
-  #testimonial_carousel .triple_slide .carousel-item-right, .triple_slide .carousel-item-left{ 
+  #notes_carousel .triple_slide .carousel-item-right, .triple_slide .carousel-item-left{ 
     transform: translateX(0);
   }
 }
@@ -236,6 +236,9 @@ a{
   border-bottom: 1px solid lightgrey;
 }
 
+.listing-side-link{
+  font-size: 14px;
+}
 .listing-side-link:hover{
   background-color: #f1f1f1;
 }
@@ -256,6 +259,7 @@ a{
   height: 170px;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 16px;
 }
 .note-view-more{
   bottom: 0px;
