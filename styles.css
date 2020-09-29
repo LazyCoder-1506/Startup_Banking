@@ -144,6 +144,17 @@ a{
   background-color: #C4C4C4;
 }
 
+#grow4-section{
+  background-color: #FFE0E0;
+}
+
+#grow4-section-link{
+  background-color: #FEC7C7;
+}
+#grow4-section-link:hover{
+  background-color: #FFB4B4;
+}
+
 .card{
   border: 2px solid #31cdcc;
   font-size: 0.8rem;
