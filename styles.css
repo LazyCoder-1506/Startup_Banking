@@ -265,3 +265,7 @@ a{
 .note-view-more{
   bottom: 0px;
 }
+
+.bottom_left_round{
+  border-bottom-left-radius: 30px;
+}
