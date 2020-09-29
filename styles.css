@@ -16,6 +16,74 @@ a{
   font-family: 'Cardo';
 }
 
+.text_prime{
+  color: #31cdcc;
+}
+.text_prime_dark{
+  color: #29b3b2;
+}
+
+.bg_lightgrey{
+  background-color: #f1f1f1;
+}
+
+.bg_prime{
+  background-color: #31cdcc;
+}
+
+.bg_second{
+  background-color: white;
+  color : #31cdcc;
+}
+.bg_second:hover{
+  background-color: #D3FFFF;
+}
+
+.btn:hover{
+  background-color: #29B3B2;
+}
+
+.bg_gradient{
+  background-image: linear-gradient(to right, rgba(221,242,247,1), rgba(241,223,242,1));
+}
+
+.navbar{
+  border-bottom: 1px solid lightgrey;
+}
+#navigation_bar_home{
+  top : -60px;
+}
+
+.nav-link{
+  color: rgba(0,0,0,1) !important;
+  font-weight: 600;
+}
+.nav-link:hover{
+  color: rgba(41,179,178,1) !important;
+}
+
+.footer{
+  background-color: black;
+  font-size: 14px;
+}
+
+.footer_links{
+  color : grey;
+}
+.footer_links:hover{
+  color : white;
+}
+
+.fixed_right_button
+{
+  z-index : 10;
+  transform : rotate(270deg);
+  -webkit-transform : rotate(270deg);
+  position : fixed;
+  right : -43px;
+  bottom : 30vh;
+}
+
 .home-section-links:hover .fa-long-arrow-right{
   margin-left: 10px;
   transition: all ease 0.5s;
@@ -74,63 +142,6 @@ a{
 }
 #grow3-section-link:hover{
   background-color: #C4C4C4;
-}
-
-.text_prime{
-  color: #31cdcc;
-}
-.text_prime_dark{
-  color: #29b3b2;
-}
-
-.bg_lightgrey{
-  background-color: #f1f1f1;
-}
-
-.bg_prime{
-  background-color: #31cdcc;
-}
-
-.btn:hover{
-  background-color: #29B3B2;
-}
-
-.bg_gradient{
-  background-image: linear-gradient(to right, rgba(221,242,247,1), rgba(241,223,242,1));
-}
-
-.footer{
-  background-color: black;
-  font-size: 14px;
-}
-
-.footer_links{
-  color : grey;
-}
-.footer_links:hover{
-  color : white;
-}
-
-.bg_second{
-  background-color: white;
-  color : #31cdcc;
-}
-.bg_second:hover{
-  background-color: #D3FFFF;
-}
-.navbar{
-  border-bottom: 1px solid lightgrey;
-}
-#navigation_bar_home{
-  top : -60px;
-}
-
-.nav-link{
-  color: rgba(0,0,0,1) !important;
-  font-weight: 600;
-}
-.nav-link:hover{
-  color: rgba(41,179,178,1) !important;
 }
 
 .card{
@@ -203,7 +214,7 @@ a{
 /* Single listing page CSS */
 #single_listing_body{
   padding-top: 50px;
-  background-color: lightgray;
+  background-color: #31cdcc;
 }
 
 #single_listing_container{
@@ -222,4 +233,19 @@ a{
   border-radius: 10px;
   border: 2px solid #31cdcc;
   box-shadow: 0px 5px 10px #29B3B2;
+  height : 300px;
+}
+
+.note-head{
+  height : 70px;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+}
+.note-para{
+  height: 170px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.note-view-more{
+  bottom: 0px;
 }
