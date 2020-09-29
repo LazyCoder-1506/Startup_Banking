@@ -249,26 +249,31 @@
           </div>
         </a>
       </div>
-      <div class="col-12 col-lg-4 mb-5">
-        <a href="http://example.com/" class="text-dark">
-          <div class="bg_gradient listing-notes p-3">
-            <div class="row h-100">
-              <div class="col-12 note-head">
-                <h3 class="font_oswald text_prime_dark mb-4">Notes</h3>
-              </div>
-              <div class="col-12 note-para">
-                <p class="font_cardo">
-                  There are many variations of passages of Lorem Ipsum available, 
-                  but the majority have suffered alteration in some form, by injected humour, 
-                  or randomised words which don't look even slightly believable.
-                </p>
-              </div>
-              <div class="col-12 text-right note-view-more align-self-end">
-                <a href="http://example.com/" class="text_prime_dark">View More</a>
+      <div class="collapse" id="more_notes">
+        <div class="col-12 col-lg-4 mb-5">
+          <a href="http://example.com/" class="text-dark">
+            <div class="bg_gradient listing-notes p-3">
+              <div class="row h-100">
+                <div class="col-12 note-head">
+                  <h3 class="font_oswald text_prime_dark mb-4">Notes</h3>
+                </div>
+                <div class="col-12 note-para">
+                  <p class="font_cardo">
+                    There are many variations of passages of Lorem Ipsum available, 
+                    but the majority have suffered alteration in some form, by injected humour, 
+                    or randomised words which don't look even slightly believable.
+                  </p>
+                </div>
+                <div class="col-12 text-right note-view-more align-self-end">
+                  <a href="http://example.com/" class="text_prime_dark">View More</a>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
+      </div>
+      <div class="col-12 mb-5 text-center">
+        <button class="btn btn-lg bg_second text-dark font_oswald" id="notes_toggle" data-toggle="collapse" data-target="#more_notes">Show More</button>
       </div>
     </div>
   </div>
@@ -343,4 +348,12 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function() {
+      $("#notes_toggle").click(function(){
+        var s = $(this);
+        s.html(s.text() == 'Show More' ? 'Show Less' : 'Show More');
+      });
+    });
+  </script>
 </body>
