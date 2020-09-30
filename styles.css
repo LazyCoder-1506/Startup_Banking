@@ -287,3 +287,7 @@ a{
   background-repeat: no-repeat;
   padding-top: 60px;
 }
+
+#post_form_container{
+  box-shadow: 0px 0px 10px #444444;
+}
