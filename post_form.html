@@ -44,7 +44,7 @@
 
   <div class="container">
     <div class="row row-content">
-      <div class="col-12 col-lg-8 offset-lg-2 my-5 p-3 bg-white"  id="post_form_container">
+      <div class="col-11 mx-auto col-lg-8 offset-lg-2 my-5 p-3 bg-white"  id="post_form_container">
         <h1 class="font_oswald text_prime_dark text-center mb-3">Capital Profile</h1>
         <h5 class="font_cardo text-center mx-3">
           Translate concepts into user flows, wireframes, mockups and prototypes that lead to intuitive user experiences. 
@@ -59,7 +59,7 @@
               <div class="bg_lightgrey p-2">
                 <label for="entity">Entity<span class="text-danger">*</span></label>
                 <select name="entity" id="entity" class="form-control" required>
-                  <option value="Select">Select</option>
+                  <option value="">Select</option>
                   <option value="Individual">Individual</option>
                   <option value="Startup">Startup</option>
                   <option value="Company">Company</option>
@@ -70,7 +70,7 @@
               <div class="bg_lightgrey p-2">
                 <label for="entity_type">Entity Type<span class="text-danger">*</span></label>
                 <select name="entity_type" id="entity_type" class="form-control" required>
-                  <option value="Select">Select</option>
+                  <option value="">Select</option>
                   <option value="PvtLtd">Pvt Ltd</option>
                   <option value="OPC">OPC</option>
                   <option value="LLP">LLP</option>
@@ -90,7 +90,7 @@
               <div class="bg_lightgrey p-2">
                 <label for="startup_stage">Startup Stage<span class="text-danger">*</span></label>
                 <select name="startup_stage" id="startup_stage" class="form-control" required>
-                  <option value="Select">Select</option>
+                  <option value="">Select</option>
                   <option value="Seed">Seed</option>
                   <option value="Angel">Angel</option>
                   <option value="Series_A">Series A Round</option>
@@ -104,7 +104,7 @@
               <div class="bg_lightgrey p-2">
                 <label for="capital_moto">Capital Moto<span class="text-danger">*</span></label>
                 <select name="capital_moto" id="capital_moto" class="form-control" required>
-                  <option value="Select">Select</option>
+                  <option value="">Select</option>
                   <option value="exit">Exit (complete sell off)</option>
                   <option value="raise">Raise Funds</option>
                 </select>
@@ -114,7 +114,7 @@
               <div class="bg_lightgrey p-2">
                 <label for="capital_urgency">Capital Urgency<span class="text-danger">*</span></label>
                 <select name="capital_urgency" id="capital_urgency" class="form-control" required>
-                  <option value="Select">Select</option>
+                  <option value="">Select</option>
                   <option value="High">High</option>
                   <option value="Medium">Medium</option>
                   <option value="Low">Low</option>
@@ -126,13 +126,13 @@
             <div class="form-group col-12 col-md-6 p-2">
               <div class="bg_lightgrey p-2">
                 <label for="total_capital">Total Capital Needed (in Rs.)<span class="text-danger">*</span></label>
-                <input type="number" class="form-control" name="total_capital" id="total_capital" required>
+                <input type="text" class="form-control" name="total_capital" id="total_capital" required>
               </div>
             </div>
             <div class="form-group col-12 col-md-6 p-2">
               <div class="bg_lightgrey p-2">
                 <label for="minimum_investment">Minimum Investment per Investor (in Rs.)<span class="text-danger">*</span></label>
-                <input type="number" class="form-control" name="minimum_investment" id="minimum_investment" required>
+                <input type="text" class="form-control" name="minimum_investment" id="minimum_investment" required>
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@
               <div class="bg_lightgrey p-2">
                 <label for="month">Month Founded<span class="text-danger">*</span></label>
                 <select name="month" id="month" class="form-control" required>
-                  <option value="Select">Select</option>
+                  <option value="">Select</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -161,18 +161,23 @@
               <div class="bg_lightgrey p-2">
                 <label for="year">Year Founded<span class="text-danger">*</span></label>
                 <select name="year" id="year" class="form-control" required>
-                  <option value="Select">Select</option>
-                  <option value="2025">2025</option>
-                  <option value="2024">2024</option>
-                  <option value="2023">2023</option>
-                  <option value="2022">2022</option>
-                  <option value="2021">2021</option>
-                  <option value="2020">2020</option>
-                  <option value="2019">2019</option>
-                  <option value="2018">2018</option>
-                  <option value="2017">2017</option>
-                  <option value="2016">2016</option>
+                  <option value="">Select</option>
+                  <option value="2010">2010</option>
+                  <option value="2011">2011</option>
+                  <option value="2012">2012</option>
+                  <option value="2013">2013</option>
+                  <option value="2014">2014</option>
                   <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
                 </select>
               </div>
             </div>
@@ -182,7 +187,7 @@
               <div class="bg_lightgrey p-2">
                 <label for="category">Category<span class="text-danger">*</span></label>
                 <select name="category" id="category" class="form-control" required>
-                  <option value="Select">Select</option>
+                  <option value="">Select</option>
                   <option value="Tech">Tech</option>
                   <option value="Non-Tech">Non-Tech</option>
                 </select>
@@ -237,7 +242,7 @@
             <div class="bg_lightgrey p-2">
               <label for="consult">Open for consulting with Startups Banking Team to kickstart your capital goal<span class="text-danger">*</span></label>
               <select class="form-control" name="consult" id="consult" required>
-                <option value="Select">Select</option>
+                <option value="">Select</option>
                   <option value="Yes">Yes</option>
                   <option value="No">No</option>
                   <option value="Maybe">Maybe Later</option>
@@ -249,7 +254,7 @@
               <div class="bg_lightgrey p-2">
                 <label for="status">Profile Status<span class="text-danger">*</span></label>
                 <select name="status" id="status" class="form-control" required>
-                  <option value="Select">Select</option>
+                  <option value="">Select</option>
                   <option value="Active">Active</option>
                   <option value="Inactive">Inactive</option>
                 </select>
