@@ -16,6 +16,11 @@ a{
   font-family: 'Cardo';
 }
 
+.field_label{
+  font-family: 'Times New Roman';
+  font-weight: bold;
+}
+
 .text_prime{
   color: #31cdcc;
 }
