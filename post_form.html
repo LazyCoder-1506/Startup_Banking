@@ -51,7 +51,229 @@
           <a href="http://example.com/" class="text_prime_dark"><u>How it works</u></a>
         </h5>
         <hr>
-
+        <form action="">
+          <small>All fields marked with '<span class="text-danger">*</span>' are mandatory.</small>
+          <br>
+          <div class="form-row mt-4 mb-2">
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="entity">Entity<span class="text-danger">*</span></label>
+                <select name="entity" id="entity" class="form-control" required>
+                  <option value="Select">Select</option>
+                  <option value="Individual">Individual</option>
+                  <option value="Startup">Startup</option>
+                  <option value="Company">Company</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="entity_type">Entity Type<span class="text-danger">*</span></label>
+                <select name="entity_type" id="entity_type" class="form-control" required>
+                  <option value="Select">Select</option>
+                  <option value="PvtLtd">Pvt Ltd</option>
+                  <option value="OPC">OPC</option>
+                  <option value="LLP">LLP</option>
+                  <option value="Others">Others</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-group mb-2 py-2">
+            <div class="bg_lightgrey p-2">
+              <label for="entity_name">Entity Name<span class="text-danger">*</span></label>
+              <input type="text" class="form-control" name="entity_name" id="entity_name" required>
+            </div>
+          </div>
+          <div class="form-row mt-4 mb-2">
+            <div class="form-group col-12 col-md-4 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="startup_stage">Startup Stage<span class="text-danger">*</span></label>
+                <select name="startup_stage" id="startup_stage" class="form-control" required>
+                  <option value="Select">Select</option>
+                  <option value="Seed">Seed</option>
+                  <option value="Angel">Angel</option>
+                  <option value="Series_A">Series A Round</option>
+                  <option value="Series_B">Series B Round</option>
+                  <option value="Series_C">Series C Round</option>
+                  <option value="Bridge">Bridge Round</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group col-12 col-md-4 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="capital_moto">Capital Moto<span class="text-danger">*</span></label>
+                <select name="capital_moto" id="capital_moto" class="form-control" required>
+                  <option value="Select">Select</option>
+                  <option value="exit">Exit (complete sell off)</option>
+                  <option value="raise">Raise Funds</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group col-12 col-md-4 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="capital_urgency">Capital Urgency<span class="text-danger">*</span></label>
+                <select name="capital_urgency" id="capital_urgency" class="form-control" required>
+                  <option value="Select">Select</option>
+                  <option value="High">High</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Low">Low</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-row mb-2">
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="total_capital">Total Capital Needed (in Rs.)<span class="text-danger">*</span></label>
+                <input type="number" class="form-control" name="total_capital" id="total_capital" required>
+              </div>
+            </div>
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="minimum_investment">Minimum Investment per Investor (in Rs.)<span class="text-danger">*</span></label>
+                <input type="number" class="form-control" name="minimum_investment" id="minimum_investment" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-row mb-2">
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="month">Month Founded<span class="text-danger">*</span></label>
+                <select name="month" id="month" class="form-control" required>
+                  <option value="Select">Select</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="year">Year Founded<span class="text-danger">*</span></label>
+                <select name="year" id="year" class="form-control" required>
+                  <option value="Select">Select</option>
+                  <option value="2025">2025</option>
+                  <option value="2024">2024</option>
+                  <option value="2023">2023</option>
+                  <option value="2022">2022</option>
+                  <option value="2021">2021</option>
+                  <option value="2020">2020</option>
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-row mb-2">
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="category">Category<span class="text-danger">*</span></label>
+                <select name="category" id="category" class="form-control" required>
+                  <option value="Select">Select</option>
+                  <option value="Tech">Tech</option>
+                  <option value="Non-Tech">Non-Tech</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="sector">Sector<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="sector" id="sector" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group mb-2 py-2">
+            <div class="bg_lightgrey p-2">
+              <label for="entity_description">Startup / Entity Description<span class="text-danger">*</span></label>
+              <textarea class="w-100 form-control" name="entity_description" id="entity_description" required></textarea>
+            </div>
+          </div>
+          <div class="form-group mb-2 py-2">
+            <div class="bg_lightgrey p-2">
+              <label for="service_description">Product / Service Description<span class="text-danger">*</span></label>
+              <textarea class="w-100 form-control" name="service_description" id="service_description" required></textarea>
+            </div>
+          </div>
+          <div class="form-group mb-2 py-2">
+            <div class="bg_lightgrey p-2">
+              <label for="model_description">Business Model Description<span class="text-danger">*</span></label>
+              <textarea class="w-100 form-control" name="model_description" id="model_description" required></textarea>
+            </div>
+          </div>
+          <div class="form-row mb-2">
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="current_revenue">Current Revenue<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="current_revenue" id="current_revenue" required>
+              </div>
+            </div>
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="location">Location<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="location" id="location" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group mb-2 py-2">
+            <div class="bg_lightgrey p-2">
+              <label for="employees">About Team / Employees Background</label>
+              <textarea class="w-100 form-control" name="employees" id="employees"></textarea>
+            </div>
+          </div>
+          <div class="form-group mb-2 py-2">
+            <div class="bg_lightgrey p-2">
+              <label for="consult">Open for consulting with Startups Banking Team to kickstart your capital goal<span class="text-danger">*</span></label>
+              <select class="form-control" name="consult" id="consult" required>
+                <option value="Select">Select</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                  <option value="Maybe">Maybe Later</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row mb-2">
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="status">Profile Status<span class="text-danger">*</span></label>
+                <select name="status" id="status" class="form-control" required>
+                  <option value="Select">Select</option>
+                  <option value="Active">Active</option>
+                  <option value="Inactive">Inactive</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label for="mobile">Mobile Number<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="mobile" id="mobile" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group mb-2 py-2 px-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="agree_check" required>
+              <label class="form-check-label" for="agree_check">
+                I agree to <a href="http://example.com/" class="text_prime_dark"><u>Terms and Conditions</u></a> and <a href="http://example.com/" class="text_prime_dark"><u>Privacy Policy</u></a>
+              </label>
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn submit_btn bg_prime text-white my-5 mx-auto"><strong>SUBMIT</strong></button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
