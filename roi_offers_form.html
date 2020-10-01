@@ -2,7 +2,7 @@
 <html lang = "en">
 
 <head>
-  <title>Startup Banking | B2B Expansion Deals Form</title>
+  <title>Startup Banking | ROI & Offers Form</title>
     <!-- Required meta tags always come first -->
   <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -45,7 +45,7 @@
   <div class="container">
     <div class="row row-content">
       <div class="col-11 mx-auto col-lg-8 offset-lg-2 my-5 p-3 bg-white post_form_container">
-        <h1 class="font_oswald text_prime_dark text-center mb-3">B2B Expansion Deals Profile</h1>
+        <h1 class="font_oswald text_prime_dark text-center mb-3">ROI & Offers</h1>
         <h5 class="font_cardo text-center mx-3">
           Translate concepts into user flows, wireframes, mockups and prototypes that lead to intuitive user experiences. 
           <a href="http://example.com/" target="_blank" class="text_prime_dark"><u>How it works</u></a>
@@ -87,30 +87,31 @@
           </div>
           <div class="form-group mb-2 py-2">
             <div class="bg_lightgrey p-2">
-              <label class="field_label" for="b2b_goal">B2B Goal<span class="text-danger">*</span></label>
-              <p class="font-cardo">
-                As a startup you should select <i>Pitching for growth</i> option below so as to help established companies have your product or service. 
-                On the other hand if you represent an established company which is open for growth by partnering with startups to bring or innovative useful business solutions in your business, 
-                then you should opt for <i>Open for growth</i> option down below
-              </p>
-              <select name="b2b_goal" id="b2b_goal" class="form-control" required>
+              <label class="field_label" for="offer_type">Offer Type<span class="text-danger">*</span></label>
+              <select name="offer_type" id="offer_type" class="form-control" required>
                 <option value="">Select</option>
-                <option value="pitching">Pitching for growth</option>
-                <option value="open">Open for growth</option>
+                <option value="ROI">ROI (Return on Investment)</option>
+                <option value="Offer">Offer (on product or service)</option>
               </select>
             </div>
           </div>
           <div class="form-group mb-2 py-2">
             <div class="bg_lightgrey p-2">
-              <label class="field_label" for="moto">Expansion/Open for growth/Disruption Moto<span class="text-danger">*</span></label>
-              <textarea class="w-100 form-control" name="moto" id="moto" rows="4" required
-              placeholder="How your product or service will improve other's business as a startup or what kind of business solution you seek as an established company"></textarea>
+              <label class="field_label" for="roi_description">Description of ROI or Offer<span class="text-danger">*</span></label>
+              <textarea class="w-100 form-control" name="roi_description" id="roi_description" rows="4" required></textarea>
+            </div>
+          </div>
+          <div class="form-group mb-2 py-2">
+            <div class="bg_lightgrey p-2">
+              <label class="field_label" for="roi_moto">ROI or Offer Moto<span class="text-danger">*</span></label>
+              <textarea class="w-100 form-control" name="roi_moto" id="roi_moto" rows="4" required
+              placeholder="How your ROI scheme or Other kind of offer will impact others to either increase their wealth or to save money"></textarea>
             </div>
           </div>
           <div class="form-row mb-2">
             <div class="form-group col-12 col-md-6 p-2">
               <div class="bg_lightgrey p-2">
-                <label class="field_label" for="month">Month Founded<span class="text-danger">*</span></label>
+                <label class="field_label" for="month">Entity Month Founded<span class="text-danger">*</span></label>
                 <select name="month" id="month" class="form-control" required>
                   <option value="">Select</option>
                   <option value="1">1</option>
@@ -130,7 +131,7 @@
             </div>
             <div class="form-group col-12 col-md-6 p-2">
               <div class="bg_lightgrey p-2">
-                <label class="field_label" for="year">Year Founded<span class="text-danger">*</span></label>
+                <label class="field_label" for="year">Entity Year Founded<span class="text-danger">*</span></label>
                 <select name="year" id="year" class="form-control" required>
                   <option value="">Select</option>
                   <option value="2010">2010</option>
@@ -195,7 +196,7 @@
           </div>
           <div class="form-group mb-2 py-2">
             <div class="bg_lightgrey p-2">
-              <label class="field_label" for="open">Open for consultation from Startups Banking Team<span class="text-danger">*</span></label>
+              <label class="field_label" for="open">Open for consultation with Startups Banking Team<span class="text-danger">*</span></label>
               <select class="form-control" name="open" id="open" required>
                 <option value="">Select</option>
                   <option value="Yes">Yes</option>
