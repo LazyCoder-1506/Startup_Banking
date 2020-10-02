@@ -2,7 +2,7 @@
 <html lang = "en">
 
 <head>
-  <title>Startup Banking | Expansion Deals Form</title>
+  <title>Startup Banking | Non Tech Profile Form</title>
     <!-- Required meta tags always come first -->
   <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -35,8 +35,8 @@
           <li class="nav-item"><a class="nav-link" href="http://example.com/">Pricing</a></li>
         </ul>
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item mb-2 mb-lg-0 mr-lg-2"><a role = "button" class = "btn btn-block bg_second" href = "http://example.com/"><strong>Logout</strong></a></li>
-          <li class="nav-item"><a role = "button" class = "btn btn-block bg_prime text-white" href = "dashboard.html"><strong>Dashboard</strong></a></li>
+          <li class="nav-item mb-2 mb-lg-0 mr-lg-2"><a role = "button" class = "btn btn-block bg_second" href = "http://example.com/"><strong>Login</strong></a></li>
+          <li class="nav-item"><a role = "button" class = "btn btn-block bg_prime text-white" href = "dashboard.html"><strong>Get started</strong> - it's free</a></li>
         </ul>
       </div>
     </div>
@@ -45,7 +45,7 @@
   <div class="container">
     <div class="row row-content">
       <div class="col-11 mx-auto col-lg-8 offset-lg-2 my-5 p-3 bg-white post_form_container">
-        <h1 class="font_oswald text_prime_dark text-center mb-3">B2B Expansion Deals Profile</h1>
+        <h1 class="font_oswald text_prime_dark text-center mb-3">Non Tech Profile</h1>
         <h5 class="font_cardo text-center mx-3">
           Translate concepts into user flows, wireframes, mockups and prototypes that lead to intuitive user experiences. 
           <a href="http://example.com/" target="_blank" class="text_prime_dark"><u>How it works</u></a>
@@ -57,170 +57,151 @@
           <div class="form-row mt-4 mb-2">
             <div class="form-group col-12 col-md-6 p-2">
               <div class="bg_lightgrey p-2">
-                <label class="field_label" for="entity">Entity<span class="text-danger">*</span></label>
-                <select name="entity" id="entity" class="form-control" required>
-                  <option value="">Select</option>
-                  <option value="Individual">Individual</option>
-                  <option value="Startup">Startup</option>
-                  <option value="Company">Established Company</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group col-12 col-md-6 p-2">
-              <div class="bg_lightgrey p-2">
                 <label class="field_label" for="entity_type">Entity Type<span class="text-danger">*</span></label>
                 <select name="entity_type" id="entity_type" class="form-control" required>
                   <option value="">Select</option>
-                  <option value="PvtLtd">Pvt Ltd</option>
+                  <option value="Individual">Individual</option>
                   <option value="OPC">OPC</option>
+                  <option value="Pvt">Pvt Ltd</option>
                   <option value="LLP">LLP</option>
+                  <option value="Partnership">Partnership Firm</option>
                   <option value="Others">Others</option>
                 </select>
               </div>
             </div>
-          </div>
-          <div class="form-group mb-2 py-2">
-            <div class="bg_lightgrey p-2">
-              <label class="field_label" for="entity_name">Entity Name<span class="text-danger">*</span></label>
-              <input type="text" class="form-control" name="entity_name" id="entity_name" required>
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label class="field_label" for="entity_name">Entity Name<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="entity_name" id="entity_name" required>
+              </div>
             </div>
           </div>
           <div class="form-group mb-2 py-2">
             <div class="bg_lightgrey p-2">
-              <label class="field_label" for="offer_type">Offer Type<span class="text-danger">*</span></label>
-              <p class="font_cardo">
-                As a startup you should select <i>Pitching for growth</i> option below so as to help established companies have your product or service. 
-                On the other hand if you represent an established company which is open for growth by partnering with startups to bring or innovative useful business solutions in your business, 
-                then you should opt for <i>Open for growth</i> option down below
-              </p>
-              <select name="offer_type" id="offer_type" class="form-control" required>
+              <label class="field_label" for="entity_profile">Entity Profile<span class="text-danger">*</span></label>
+              <select class="form-control" name="entity_profile" id="entity_profile" required>
                 <option value="">Select</option>
-                <option value="Pitching">Pitching for growth</option>
-                <option value="Open">Open for growth</option>
-                <option value="Franchise">Franchise</option>
+                  <option value="Student">Freelancer Student</option>
+                  <option value="Professional">freelancer Professional</option>
+                  <option value="Sales">Sales Agency</option>
+                  <option value="Marketing">Marketing Agency</option>
+                  <option value="Business">Business Development Agency</option>
               </select>
             </div>
           </div>
-          <div class="form-group mb-2 py-2">
-            <div class="bg_lightgrey p-2">
-              <label class="field_label" for="moto">Expansion/Open for growth/Disruption Moto<span class="text-danger">*</span></label>
-              <textarea class="w-100 form-control" name="moto" id="moto" rows="4" required
-              placeholder="How your product or service will improve other's business as a startup or what kind of business solution you seek as an established company"></textarea>
-            </div>
-          </div>
-          <div class="form-row mb-2">
+          <div class="form-row">
             <div class="form-group col-12 col-md-6 p-2">
-              <div class="bg_lightgrey p-2">
-                <label class="field_label" for="month">Month Founded<span class="text-danger">*</span></label>
-                <select name="month" id="month" class="form-control" required>
-                  <option value="">Select</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                </select>
+              <div class="form-row">
+                <div class="form-group col-12">
+                  <div class="bg_lightgrey p-2">
+                    <label class="field_label" for="working_time">Working Time<span class="text-danger">*</span></label>
+                    <div class="form-check bg-white pl-4">
+                      <input class="form-check-input" type="checkbox" name="working_time" id="Internship" value="Internship">
+                      <label class="form-check-label" for="Internship">Internship</label>
+                    </div>
+                    <div class="form-check bg-white pl-4">
+                      <input class="form-check-input" type="checkbox" name="working_time" id="Project" value="Project">
+                      <label class="form-check-label" for="Project">Project Basis</label>
+                    </div>
+                    <div class="form-check bg-white pl-4">
+                      <input class="form-check-input" type="checkbox" name="working_time" id="Part" value="Part">
+                      <label class="form-check-label" for="Part">Part Time</label>
+                    </div>
+                    <div class="form-check bg-white pl-4">
+                      <input class="form-check-input" type="checkbox" name="working_time" id="Full" value="Full">
+                      <label class="form-check-label" for="Full">Full Time Payroll</label>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="form-group col-12 col-md-6 p-2">
-              <div class="bg_lightgrey p-2">
-                <label class="field_label" for="year">Year Founded<span class="text-danger">*</span></label>
-                <select name="year" id="year" class="form-control" required>
-                  <option value="">Select</option>
-                  <option value="2010">2010</option>
-                  <option value="2011">2011</option>
-                  <option value="2012">2012</option>
-                  <option value="2013">2013</option>
-                  <option value="2014">2014</option>
-                  <option value="2015">2015</option>
-                  <option value="2016">2016</option>
-                  <option value="2017">2017</option>
-                  <option value="2018">2018</option>
-                  <option value="2019">2019</option>
-                  <option value="2020">2020</option>
-                  <option value="2021">2021</option>
-                  <option value="2022">2022</option>
-                  <option value="2023">2023</option>
-                  <option value="2024">2024</option>
-                  <option value="2025">2025</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class="form-row mb-2">
-            <div class="form-group col-12 col-md-6 p-2">
-              <div class="bg_lightgrey p-2">
-                <label class="field_label" for="company_size">Company Size<span class="text-danger">*</span></label>
-                <input type="text" class="form-control" name="company_size" id="company_size" placeholder="Eg: more than 50 employees" required>
-              </div>
-            </div>
-            <div class="form-group col-12 col-md-6 p-2">
-              <div class="bg_lightgrey p-2">
-                <label class="field_label" for="business_sector">Business Sector<span class="text-danger">*</span></label>
-                <input type="text" class="form-control" name="business_sector" id="business_sector" placeholder="Eg: automobile sector" required>
+              <div class="form-row">
+                <div class="form-group col-12">
+                  <div class="bg_lightgrey p-2">
+                    <label class="field_label" for="work_offerings">Work Offerings<span class="text-danger">*</span></label>
+                    <div class="form-check bg-white pl-4">
+                      <input class="form-check-input" type="checkbox" name="work_offerings" id="Sales" value="Sales">
+                      <label class="form-check-label" for="Sales">Sales Services</label>
+                    </div>
+                    <div class="form-check bg-white pl-4">
+                      <input class="form-check-input" type="checkbox" name="work_offerings" id="Marketing" value="Marketing">
+                      <label class="form-check-label" for="Marketing">Marketing Services</label>
+                    </div>
+                    <div class="form-check bg-white pl-4">
+                      <input class="form-check-input" type="checkbox" name="work_offerings" id="Digital" value="Digital">
+                      <label class="form-check-label" for="Digital">Digital Marketing Services</label>
+                    </div>
+                    <div class="form-check bg-white pl-4">
+                      <input class="form-check-input" type="checkbox" name="work_offerings" id="Business" value="Business">
+                      <label class="form-check-label" for="Business">Business Development Services</label>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="form-group mb-2 py-2">
             <div class="bg_lightgrey p-2">
-              <label class="field_label" for="business_description">Business Overview or Description<span class="text-danger">*</span></label>
-              <textarea class="w-100 form-control" name="business_description" id="business_description" rows="4" required></textarea>
+              <label class="field_label" for="college">College / Company Name</label>
+              <p class="font_cardo">If you a student or working professional, mention your college or company name.</p>
+              <input type="text" class="form-control" name="college" id="college">
+            </div>
+          </div>
+          <div class="form-group mb-2 py-2">
+            <div class="bg_lightgrey p-2">
+              <label class="field_label" for="work_profile">Work Profile<span class="text-danger">*</span></label>
+              <div class="form-check bg-white pl-4">
+                <input class="form-check-input" type="checkbox" name="work_profile" id="Onsite" value="Onsite">
+                <label class="form-check-label" for="Onsite">Onsite (Offline)</label>
+              </div>
+              <div class="form-check bg-white pl-4">
+                <input class="form-check-input" type="checkbox" name="work_profile" id="Online" value="Online">
+                <label class="form-check-label" for="Online">Online</label>
+              </div>
+              <div class="form-check bg-white pl-4">
+                <input class="form-check-input" type="checkbox" name="work_profile" id="Remote" value="Remote">
+                <label class="form-check-label" for="Remote">Remote</label>
+              </div>
             </div>
           </div>
           <div class="form-row mb-2">
-            <div class="form-group col-12 col-md-6 p-2">
-              <div class="bg_lightgrey p-2">
-                <label class="field_label" for="current_revenue">Current Revenue</label>
-                <input type="text" class="form-control" name="current_revenue" id="current_revenue">
-              </div>
-            </div>
             <div class="form-group col-12 col-md-6 p-2">
               <div class="bg_lightgrey p-2">
                 <label class="field_label" for="location">Location<span class="text-danger">*</span></label>
                 <input type="text" class="form-control" name="location" id="location" required>
               </div>
             </div>
-          </div>
-          <div class="form-group mb-2 py-2">
-            <div class="bg_lightgrey p-2">
-              <label class="field_label" for="employees">About Founding Team / Background</label>
-              <textarea class="w-100 form-control" name="employees" id="employees"></textarea>
-            </div>
-          </div>
-          <div class="form-group mb-2 py-2">
-            <div class="bg_lightgrey p-2">
-              <label class="field_label" for="open">Open for consultation from Startups Banking Team<span class="text-danger">*</span></label>
-              <select class="form-control" name="open" id="open" required>
-                <option value="">Select</option>
-                  <option value="Yes">Yes</option>
-                  <option value="No">No</option>
-                  <option value="Maybe">Maybe Later</option>
-              </select>
-            </div>
-          </div>
-          <div class="form-row mb-2">
             <div class="form-group col-12 col-md-6 p-2">
               <div class="bg_lightgrey p-2">
-                <label class="field_label" for="status">Profile Status<span class="text-danger">*</span></label>
-                <select name="status" id="status" class="form-control" required>
+                <label class="field_label" for="profile_status">Profile Status<span class="text-danger">*</span></label>
+                <select name="profile_status" id="profile_status" class="form-control" required>
                   <option value="">Select</option>
                   <option value="Active">Active</option>
                   <option value="Inactive">Inactive</option>
                 </select>
               </div>
             </div>
+          </div>
+          <div class="form-row mb-2">
             <div class="form-group col-12 col-md-6 p-2">
               <div class="bg_lightgrey p-2">
-                <label class="field_label" for="mobile">Mobile Number<span class="text-danger">*</span></label>
-                <input type="text" class="form-control" name="mobile" id="mobile" required>
+                <label class="field_label" for="contact_number">Contact Number<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="contact_number" id="contact_number" required>
               </div>
+            </div>
+            <div class="form-group col-12 col-md-6 p-2">
+              <div class="bg_lightgrey p-2">
+                <label class="field_label" for="email">Email ID<span class="text-danger">*</span></label>
+                <input type="email" class="form-control" name="email" id="email" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group mb-2 py-2">
+            <div class="bg_lightgrey p-2">
+              <label class="field_label" for="url">URL<span class="text-danger">*</span></label>
+              <p>Here you are needed to enter the link to your website.</p>
+              <input type="url" class="form-control" name="url" id="url" required>
             </div>
           </div>
           <div class="form-group mb-2 py-2 px-2">
