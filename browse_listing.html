@@ -42,13 +42,90 @@
     </div>
   </nav>
 
-  <div class="jumbotron bg-dark text-white">
+  <div class="jumbotron bg-dark text-white mb-0">
+    <div class="container">
+      <div class="col-12 col-lg-8 offset-lg-2 text-center">
+        <h1 class="font_oswald mb-4">Header goes here</h1>
+        <h5 class="font_cardo">Translate concepts into user flows, wireframes, mockups and prototypes that lead to intuitive user experiences.</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="vw-100 sticky-top bg-secondary mb-5 py-3" id="browse_filter_div">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-8 offset-lg-2 text-center my-5">
-          <h1 class="font_oswald mb-5"><strong>Heading goes here</strong></h1>
-          <h5 class="font_cardo">Translate concepts into user flows, wireframes, mockups and prototypes that lead to intuitive user experiences.</h5>
+        <div class="col-12 text-center">
+          <button class="btn bg_second" data-toggle="collapse" data-target="#filter_fields"><i class="fa fa-filter"></i> <strong>Filter Listings</strong></button>
         </div>
+      </div>
+      <div class="row collapse mx-0 mt-2" id="filter_fields">
+        <form action="">
+          <div class="form-row w-100">
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <select class="form-control" name="moto" id="moto">
+                <option value="">Moto</option>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+                <option value="Option4">Option 4</option>
+                <option value="Option5">Option 5</option>
+              </select>
+            </div>
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <select class="form-control" name="category" id="category">
+                <option value="">Category</option>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+                <option value="Option4">Option 4</option>
+                <option value="Option5">Option 5</option>
+              </select>
+            </div>
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <select class="form-control" name="sector" id="sector">
+                <option value="">Sector</option>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+                <option value="Option4">Option 4</option>
+                <option value="Option5">Option 5</option>
+              </select>
+            </div>
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <select class="form-control" name="location" id="location">
+                <option value="">Location</option>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+                <option value="Option4">Option 4</option>
+                <option value="Option5">Option 5</option>
+              </select>
+            </div>
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <select class="form-control" name="profile_type" id="profile_type">
+                <option value="">Profile Type</option>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+                <option value="Option4">Option 4</option>
+                <option value="Option5">Option 5</option>
+              </select>
+            </div>
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <select class="form-control" name="pricing" id="pricing">
+                <option value="">Pricing</option>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+                <option value="Option4">Option 4</option>
+                <option value="Option5">Option 5</option>
+              </select>
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn bg_prime submit_btn text-white"><strong>Apply Filters</strong></button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
@@ -99,6 +176,101 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="row bg-white browse_listing_element mb-5">
+      <div class="col-12 col-md-10 border-bottom-thin border-right-thin">
+        <div class="row border-bottom-thin pt-3">
+          <div class="col-3 col-md-2 align-self-center">
+            <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png" alt="" class="w-100">
+          </div>
+          <div class="col-9 col-md-10 align-self-center">
+            <h3 class="font_oswald text-info mb-4">Title of the Listing Title of the Listing</h3>
+            <h6>
+              <a href="http://example.com/" class="font_cardo text-danger mx-2"><u>Report</u></a>
+              <a href="http://example.com/" class="font_cardo text-dark mx-2"><u>Doc Link</u></a>
+              <span class="font_oswald text_prime float-right mx-2">PRIME</span>
+            </h6>
+          </div>
+        </div>
+        <div class="row py-3 px-md-2">
+          <div class="col-12 col-lg-3 mb-3 align-self-center border-right-thin">
+            <h5 class="text-center font_oswald"><i class="fa fa-map-marker text-danger"></i> Location</h5>
+            <p class="font_cardo mb-0">19, Old Church Road, Kolkata, West Bengal, India</p>
+          </div>
+          <div class="col-12 col-lg-4 mb-3 align-self-center border-right-thin">
+            <p class="font_cardo mb-1"><span class="font_oswald">Field 1 : </span>Information regarding field 1</p>
+            <p class="font_cardo mb-1"><span class="font_oswald">Field 2 : </span>Information regarding field 2</p>
+            <p class="font_cardo mb-1"><span class="font_oswald">Field 3 : </span>Information regarding field 3</p>
+          </div>
+          <div class="col-12 col-lg-5 align-self-center">
+            <h5 class="text-center font_oswald">Overview</h5>
+            <p class="font_cardo">
+              Browse hundreds of in-depth videos, courses, and guides to get up and running fast. 
+              Explore our blog detailed articles on trends, inspiration, and best practices. 
+              Get inspired by the incredible websites built by members of the Webflow community.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-2 py-3">
+        <div class="row h-100">
+          <div class="col-6 col-md-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg_prime text-white"><strong>Send Proposal</strong></a>
+          </div>
+          <div class="col-6 col-md-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg-info text-white"><strong>Explore</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-white browse_listing_element mb-5">
+      <div class="col-12 col-md-10 border-bottom-thin border-right-thin">
+        <div class="row border-bottom-thin pt-3">
+          <div class="col-3 col-md-2 align-self-center">
+            <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png" alt="" class="w-100">
+          </div>
+          <div class="col-9 col-md-10 align-self-center">
+            <h3 class="font_oswald text-info mb-4">Title of the Listing Title of the Listing</h3>
+            <h6>
+              <a href="http://example.com/" class="font_cardo text-danger mx-2"><u>Report</u></a>
+              <a href="http://example.com/" class="font_cardo text-dark mx-2"><u>Doc Link</u></a>
+              <span class="font_oswald text_prime float-right mx-2">PRIME</span>
+            </h6>
+          </div>
+        </div>
+        <div class="row py-3 px-md-2">
+          <div class="col-12 col-lg-3 mb-3 align-self-center border-right-thin">
+            <h5 class="text-center font_oswald"><i class="fa fa-map-marker text-danger"></i> Location</h5>
+            <p class="font_cardo mb-0">19, Old Church Road, Kolkata, West Bengal, India</p>
+          </div>
+          <div class="col-12 col-lg-4 mb-3 align-self-center border-right-thin">
+            <p class="font_cardo mb-1"><span class="font_oswald">Field 1 : </span>Information regarding field 1</p>
+            <p class="font_cardo mb-1"><span class="font_oswald">Field 2 : </span>Information regarding field 2</p>
+            <p class="font_cardo mb-1"><span class="font_oswald">Field 3 : </span>Information regarding field 3</p>
+          </div>
+          <div class="col-12 col-lg-5 align-self-center">
+            <h5 class="text-center font_oswald">Overview</h5>
+            <p class="font_cardo">
+              Browse hundreds of in-depth videos, courses, and guides to get up and running fast. 
+              Explore our blog detailed articles on trends, inspiration, and best practices. 
+              Get inspired by the incredible websites built by members of the Webflow community.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-2 py-3">
+        <div class="row h-100">
+          <div class="col-6 col-md-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg_prime text-white"><strong>Send Proposal</strong></a>
+          </div>
+          <div class="col-6 col-md-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg-info text-white"><strong>Explore</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-white p-3 mb-5">
+      <h1>Space for Ads</h1>
     </div>
     <div class="row bg-white browse_listing_element mb-5">
       <div class="col-12 col-md-10 border-bottom-thin border-right-thin">

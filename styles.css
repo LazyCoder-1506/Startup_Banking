@@ -305,3 +305,7 @@ a{
 .browse_listing_element{
   box-shadow: 0px 0px 10px gray;
 }
+
+#browse_filter_div{
+  top: 50px;
+}
