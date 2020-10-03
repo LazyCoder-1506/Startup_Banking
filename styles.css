@@ -81,6 +81,9 @@ a{
 .border-right-thin{
   border-right: 1px solid lightgrey;
 }
+.border-left-thin{
+  border-left: 1px solid lightgrey;
+}
 
 .fixed_right_button
 {
