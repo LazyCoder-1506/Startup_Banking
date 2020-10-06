@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <title>Startup Banking | Browse Listings</title>
+    <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet'>
+    <!--Custom css-->
+	<link rel = "stylesheet" href="styles.css">
+</head>
+
+<body class="bg_prime pt-5">
+  <nav class="navbar navbar-light bg-white navbar-expand-sm fixed-top" id = "navigation_bar">    <!-- Navigation Bar -->
+    <div class="container">
+      <a class="navbar-brand mr-auto pr-3" href="#">Brand Logo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="blog.html">Product</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">Case Studies</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="compare.html">Enterprise</a></li>
+          <li class="nav-item"><a class="nav-link" href="compare.html">Pricing</a></li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mb-2 mb-lg-0 mr-lg-2"><a role = "button" class = "btn btn-block bg_second" href = "login.html"><strong>Login</strong></a></li>
+          <li class="nav-item"><a role = "button" class = "btn btn-block bg_prime text-white" href = "login.html"><strong>Get started</strong> - it's free</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron bg-dark text-white mb-0">
+    <div class="container">
+      <div class="col-12 col-lg-8 offset-lg-2 text-center">
+        <h1 class="font_oswald mb-4">Header goes here</h1>
+        <h5 class="font_cardo">Translate concepts into user flows, wireframes, mockups and prototypes that lead to intuitive user experiences.</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="vw-100 sticky-top bg-secondary mb-5 py-3" id="browse_filter_div">
+    <div class="container">
+      <div class="row d-lg-none">
+        <div class="col-12 text-center">
+          <button class="btn bg_second" data-toggle="collapse" data-target="#filter_fields"><i class="fa fa-filter"></i> <strong>Filter Listings</strong></button>
+        </div>
+      </div>
+      <div class="row collapse mx-0 mt-2 d-lg-block" id="filter_fields">
+        <form action="">
+          <div class="form-row w-100">
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <select class="form-control" name="moto" id="moto">
+                <option value="">Moto</option>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+                <option value="Option4">Option 4</option>
+                <option value="Option5">Option 5</option>
+              </select>
+            </div>
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <select class="form-control" name="category" id="category">
+                <option value="">Category</option>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+                <option value="Option4">Option 4</option>
+                <option value="Option5">Option 5</option>
+              </select>
+            </div>
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <select class="form-control" name="sector" id="sector">
+                <option value="">Sector</option>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+                <option value="Option4">Option 4</option>
+                <option value="Option5">Option 5</option>
+              </select>
+            </div>
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <select class="form-control" name="location" id="location">
+                <option value="">Location</option>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+                <option value="Option4">Option 4</option>
+                <option value="Option5">Option 5</option>
+              </select>
+            </div>
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <select class="form-control" name="profile_type" id="profile_type">
+                <option value="">Profile Type</option>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+                <option value="Option4">Option 4</option>
+                <option value="Option5">Option 5</option>
+              </select>
+            </div>
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <select class="form-control" name="pricing" id="pricing">
+                <option value="">Pricing</option>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+                <option value="Option4">Option 4</option>
+                <option value="Option5">Option 5</option>
+              </select>
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn bg_prime submit_btn text-white"><strong>Apply Filters</strong></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4">
+    <div class="row bg-white browse_listing_element mb-5">
+      <div class="col-12 col-lg-10 border-bottom-thin border-right-thin">
+        <div class="row border-bottom-thin pt-3">
+          <div class="col-3 col-lg-2 align-self-center">
+            <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png" alt="" class="w-100">
+          </div>
+          <div class="col-9 col-lg-10 align-self-center">
+            <h3 class="font_oswald text-info mb-4">Title of the Listing Title of the Listing</h3>
+            <h6>
+              <a href="http://example.com/" class="font_cardo text-danger mx-2"><i class="fa fa-warning"></i> <u>Report</u></a>
+              <a href="http://example.com/" class="font_cardo text-dark mx-2"><u>Doc Link</u></a>
+              <span class="font_oswald text_prime float-right mx-2">PRIME</span>
+            </h6>
+          </div>
+        </div>
+        <div class="row py-3 px-md-2">
+          <div class="col-12 col-lg-3 mb-3 align-self-center text-center">
+            <h5 class="font_oswald"><i class="fa fa-map-marker text-danger"></i> Location</h5>
+            <p class="font_cardo mb-0">19, Old Church Road, Kolkata, West Bengal, India</p>
+          </div>
+          <div class="col-12 col-lg-4 mb-3 align-self-center border-left-thin border-right-thin text-center">
+            <h5 class="font_oswald">Field 1</h5>
+            <p class="font_cardo">Information of field 1</p>
+            <h5 class="font_oswald">Field 2</h5>
+            <p class="font_cardo">Information of field 2</p>
+          </div>
+          <div class="col-12 col-lg-5 align-self-center text-center">
+            <h5 class="font_oswald">Overview</h5>
+            <p class="font_cardo">
+              Browse hundreds of in-depth videos, courses, and guides to get up and running fast. 
+              Explore our blog detailed articles on trends, inspiration, and best practices. 
+              Get inspired by the incredible websites built by members of the Webflow community.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-2 py-3">
+        <div class="row h-100">
+          <div class="col-6 col-lg-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg_prime text-white"><strong>Send Proposal</strong></a>
+          </div>
+          <div class="col-6 col-lg-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg-info text-white"><strong>Explore</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-white browse_listing_element mb-5">
+      <div class="col-12 col-lg-10 border-bottom-thin border-right-thin">
+        <div class="row border-bottom-thin pt-3">
+          <div class="col-3 col-lg-2 align-self-center">
+            <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png" alt="" class="w-100">
+          </div>
+          <div class="col-9 col-lg-10 align-self-center">
+            <h3 class="font_oswald text-info mb-4">Title of the Listing Title of the Listing</h3>
+            <h6>
+              <a href="http://example.com/" class="font_cardo text-danger mx-2"><i class="fa fa-warning"></i> <u>Report</u></a>
+              <a href="http://example.com/" class="font_cardo text-dark mx-2"><u>Doc Link</u></a>
+              <span class="font_oswald text_prime float-right mx-2">PRIME</span>
+            </h6>
+          </div>
+        </div>
+        <div class="row py-3 px-md-2">
+          <div class="col-12 col-lg-3 mb-3 align-self-center text-center">
+            <h5 class="font_oswald"><i class="fa fa-map-marker text-danger"></i> Location</h5>
+            <p class="font_cardo mb-0">19, Old Church Road, Kolkata, West Bengal, India</p>
+          </div>
+          <div class="col-12 col-lg-4 mb-3 align-self-center border-left-thin border-right-thin text-center">
+            <h5 class="font_oswald">Field 1</h5>
+            <p class="font_cardo">Information of field 1</p>
+            <h5 class="font_oswald">Field 2</h5>
+            <p class="font_cardo">Information of field 2</p>
+          </div>
+          <div class="col-12 col-lg-5 align-self-center text-center">
+            <h5 class="font_oswald">Overview</h5>
+            <p class="font_cardo">
+              Browse hundreds of in-depth videos, courses, and guides to get up and running fast. 
+              Explore our blog detailed articles on trends, inspiration, and best practices. 
+              Get inspired by the incredible websites built by members of the Webflow community.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-2 py-3">
+        <div class="row h-100">
+          <div class="col-6 col-lg-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg_prime text-white"><strong>Send Proposal</strong></a>
+          </div>
+          <div class="col-6 col-lg-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg-info text-white"><strong>Explore</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-white browse_listing_element mb-5">
+      <div class="col-12 col-lg-10 border-bottom-thin border-right-thin">
+        <div class="row border-bottom-thin pt-3">
+          <div class="col-3 col-lg-2 align-self-center">
+            <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png" alt="" class="w-100">
+          </div>
+          <div class="col-9 col-lg-10 align-self-center">
+            <h3 class="font_oswald text-info mb-4">Title of the Listing Title of the Listing</h3>
+            <h6>
+              <a href="http://example.com/" class="font_cardo text-danger mx-2"><i class="fa fa-warning"></i> <u>Report</u></a>
+              <a href="http://example.com/" class="font_cardo text-dark mx-2"><u>Doc Link</u></a>
+              <span class="font_oswald text_prime float-right mx-2">PRIME</span>
+            </h6>
+          </div>
+        </div>
+        <div class="row py-3 px-md-2">
+          <div class="col-12 col-lg-3 mb-3 align-self-center text-center">
+            <h5 class="font_oswald"><i class="fa fa-map-marker text-danger"></i> Location</h5>
+            <p class="font_cardo mb-0">19, Old Church Road, Kolkata, West Bengal, India</p>
+          </div>
+          <div class="col-12 col-lg-4 mb-3 align-self-center border-left-thin border-right-thin text-center">
+            <h5 class="font_oswald">Field 1</h5>
+            <p class="font_cardo">Information of field 1</p>
+            <h5 class="font_oswald">Field 2</h5>
+            <p class="font_cardo">Information of field 2</p>
+          </div>
+          <div class="col-12 col-lg-5 align-self-center text-center">
+            <h5 class="font_oswald">Overview</h5>
+            <p class="font_cardo">
+              Browse hundreds of in-depth videos, courses, and guides to get up and running fast. 
+              Explore our blog detailed articles on trends, inspiration, and best practices. 
+              Get inspired by the incredible websites built by members of the Webflow community.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-2 py-3">
+        <div class="row h-100">
+          <div class="col-6 col-lg-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg_prime text-white"><strong>Send Proposal</strong></a>
+          </div>
+          <div class="col-6 col-lg-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg-info text-white"><strong>Explore</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-white p-3 mb-5">
+      <h1>Space for Ads</h1>
+    </div>
+    <div class="row bg-white browse_listing_element mb-5">
+      <div class="col-12 col-lg-10 border-bottom-thin border-right-thin">
+        <div class="row border-bottom-thin pt-3">
+          <div class="col-3 col-lg-2 align-self-center">
+            <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png" alt="" class="w-100">
+          </div>
+          <div class="col-9 col-lg-10 align-self-center">
+            <h3 class="font_oswald text-info mb-4">Title of the Listing Title of the Listing</h3>
+            <h6>
+              <a href="http://example.com/" class="font_cardo text-danger mx-2"><i class="fa fa-warning"></i> <u>Report</u></a>
+              <a href="http://example.com/" class="font_cardo text-dark mx-2"><u>Doc Link</u></a>
+              <span class="font_oswald text_prime float-right mx-2">PRIME</span>
+            </h6>
+          </div>
+        </div>
+        <div class="row py-3 px-md-2">
+          <div class="col-12 col-lg-3 mb-3 align-self-center text-center">
+            <h5 class="font_oswald"><i class="fa fa-map-marker text-danger"></i> Location</h5>
+            <p class="font_cardo mb-0">19, Old Church Road, Kolkata, West Bengal, India</p>
+          </div>
+          <div class="col-12 col-lg-4 mb-3 align-self-center border-left-thin border-right-thin text-center">
+            <h5 class="font_oswald">Field 1</h5>
+            <p class="font_cardo">Information of field 1</p>
+            <h5 class="font_oswald">Field 2</h5>
+            <p class="font_cardo">Information of field 2</p>
+          </div>
+          <div class="col-12 col-lg-5 align-self-center text-center">
+            <h5 class="font_oswald">Overview</h5>
+            <p class="font_cardo">
+              Browse hundreds of in-depth videos, courses, and guides to get up and running fast. 
+              Explore our blog detailed articles on trends, inspiration, and best practices. 
+              Get inspired by the incredible websites built by members of the Webflow community.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-2 py-3">
+        <div class="row h-100">
+          <div class="col-6 col-lg-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg_prime text-white"><strong>Send Proposal</strong></a>
+          </div>
+          <div class="col-6 col-lg-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg-info text-white"><strong>Explore</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-white browse_listing_element mb-5">
+      <div class="col-12 col-lg-10 border-bottom-thin border-right-thin">
+        <div class="row border-bottom-thin pt-3">
+          <div class="col-3 col-lg-2 align-self-center">
+            <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png" alt="" class="w-100">
+          </div>
+          <div class="col-9 col-lg-10 align-self-center">
+            <h3 class="font_oswald text-info mb-4">Title of the Listing Title of the Listing</h3>
+            <h6>
+              <a href="http://example.com/" class="font_cardo text-danger mx-2"><i class="fa fa-warning"></i> <u>Report</u></a>
+              <a href="http://example.com/" class="font_cardo text-dark mx-2"><u>Doc Link</u></a>
+              <span class="font_oswald text_prime float-right mx-2">PRIME</span>
+            </h6>
+          </div>
+        </div>
+        <div class="row py-3 px-md-2">
+          <div class="col-12 col-lg-3 mb-3 align-self-center text-center">
+            <h5 class="font_oswald"><i class="fa fa-map-marker text-danger"></i> Location</h5>
+            <p class="font_cardo mb-0">19, Old Church Road, Kolkata, West Bengal, India</p>
+          </div>
+          <div class="col-12 col-lg-4 mb-3 align-self-center border-left-thin border-right-thin text-center">
+            <h5 class="font_oswald">Field 1</h5>
+            <p class="font_cardo">Information of field 1</p>
+            <h5 class="font_oswald">Field 2</h5>
+            <p class="font_cardo">Information of field 2</p>
+          </div>
+          <div class="col-12 col-lg-5 align-self-center text-center">
+            <h5 class="font_oswald">Overview</h5>
+            <p class="font_cardo">
+              Browse hundreds of in-depth videos, courses, and guides to get up and running fast. 
+              Explore our blog detailed articles on trends, inspiration, and best practices. 
+              Get inspired by the incredible websites built by members of the Webflow community.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-2 py-3">
+        <div class="row h-100">
+          <div class="col-6 col-lg-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg_prime text-white"><strong>Send Proposal</strong></a>
+          </div>
+          <div class="col-6 col-lg-12 h-md-50 align-self-center text-center">
+            <a href="http://example.com" class="btn bg-info text-white"><strong>Explore</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-6 col-lg-3">
+          <h5 class="text-white mb-3">Product</h5>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Designer</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Interactions</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">CMS</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Ecommerce</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Editor</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Hosting</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Pricing</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Enterprise</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Templates</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Feature Index</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h5 class="text-white mb-3">Company</h5>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">About</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Jobs</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Security</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Terms of Service</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Privacy Policy</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Cookie Policy</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Cookie Preferences</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Sitemap</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Become an Affiliate</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Webflow Virtual World Tour</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h5 class="text-white mb-3">Learn & Get Help</h5>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">University</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Blog</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Ebooks</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Forum</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Community</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Hire an Expert</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Customers</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Webflow vs. Wordpress</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Status</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Support</a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links">Wishlist</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h5 class="text-white mb-3">Social</h5>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a href="http://example.com/" class="footer_links"><i class="fa fa-youtube-play"></i></a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links"><i class="fa fa-twitter"></i></a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links"><i class="fa fa-facebook"></i></a></li>
+            <li class="mb-3"><a href="http://example.com/" class="footer_links"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <p class="text-secondary">© 2020 Webflow, Inc. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>

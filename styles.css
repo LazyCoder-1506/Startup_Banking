@@ -170,6 +170,18 @@ a{
   border: 2px solid #31cdcc;
   font-size: 0.8rem;
 }
+.card_name{
+  height: 50px;
+  overflow: hidden;
+}
+.card_sector{
+  overflow: hidden;
+  height: 60px;
+}
+.card_overview{
+  overflow: hidden;
+  height: 80px;
+}
 
 .carousel-control-prev
 {
