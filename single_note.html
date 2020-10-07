@@ -2,7 +2,7 @@
 <html lang = "en">
 
 <head>
-  <title>Startup Banking | Notes Form</title>
+  <title>Startup Banking | Single Listing</title>
     <!-- Required meta tags always come first -->
   <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,7 +19,7 @@
 	<link rel = "stylesheet" href="styles.css">
 </head>
 
-<body class="post-form-body">
+<body id="single_listing_body">
   <nav class="navbar navbar-light bg-white navbar-expand-sm fixed-top" id = "navigation_bar">    <!-- Navigation Bar -->
     <div class="container">
       <a class="navbar-brand mr-auto pr-3" href="#">Brand Logo</a>
@@ -28,77 +28,62 @@
       </button>
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item"><a class="nav-link" href="http://example.com/">Product</a></li>
-          <li class="nav-item"><a class="nav-link" href="http://example.com/">Case Studies</a></li>
-          <li class="nav-item"><a class="nav-link" href="http://example.com/">Resources</a></li>
-          <li class="nav-item"><a class="nav-link" href="http://example.com/">Enterprise</a></li>
-          <li class="nav-item"><a class="nav-link" href="http://example.com/">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Product</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">Case Studies</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="compare.html">Enterprise</a></li>
+          <li class="nav-item"><a class="nav-link" href="compare.html">Pricing</a></li>
         </ul>
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item mb-2 mb-lg-0 mr-lg-2"><a role = "button" class = "btn btn-block bg_second" href = "http://example.com/"><strong>Logout</strong></a></li>
-          <li class="nav-item"><a role = "button" class = "btn btn-block bg_prime text-white" href = "dashboard.html"><strong>Dashboard</strong></a></li>
+          <li class="nav-item mb-2 mb-lg-0 mr-lg-2"><a role = "button" class = "btn btn-block bg_second" href = "login.html"><strong>Login</strong></a></li>
+          <li class="nav-item"><a role = "button" class = "btn btn-block bg_prime text-white" href = "login.html"><strong>Get started</strong> - it's free</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container">
-    <div class="row row-content">
-      <div class="col-11 mx-auto col-lg-8 offset-lg-2 my-5 p-3 bg-white post_form_container">
-        <h1 class="font_oswald text-info text-center mb-3">Post Notes</h1>
-        <h5 class="font_cardo text-center mx-3">
-          Translate concepts into user flows, wireframes, mockups and prototypes that lead to intuitive user experiences. 
-          <a href="http://example.com/" target="_blank" class="text-info"><u>How it works</u></a>
-        </h5>
-        <hr>
-        <form action="">
-          <small>All fields marked with '<span class="text-danger">*</span>' are mandatory.</small>
-          <br>
-          <div class="form-group mt-4 mb-2">
-            <div class="bg_lightgrey p-2">
-              <label class="field_label" for="note_title">Note Title<span class="text-danger">*</span></label>
-              <input type="text" class="form-control" name="note_title" id="note_title" required>
-            </div>
-          </div>
-          <div class="form-group mb-2 py-2">
-            <div class="bg_lightgrey p-2">
-              <label class="field_label" for="note_body">Note Body<span class="text-danger">*</span></label>
-              <textarea class="w-100 form-control" name="note_body" id="note_body" rows="20" required></textarea>
-            </div>
-          </div>
-          <p class="font_cardo">Enter keywords to signify what this note is about.</p>
-          <div class="form-row mb-2">
-            <div class="form-group col-12 col-md-6 p-2">
-              <div class="bg_lightgrey p-2">
-                <label class="field_label" for="keyword1">Keyword 1<span class="text-danger">*</span></label>
-                <input type="text" class="form-control" name="keyword1" id="keyword1" required>
-              </div>
-            </div>
-            <div class="form-group col-12 col-md-6 p-2">
-              <div class="bg_lightgrey p-2">
-                <label class="field_label" for="keyword2">Keyword 2<span class="text-danger">*</span></label>
-                <input type="text" class="form-control" name="keyword2" id="keyword2" required>
-              </div>
-            </div>
-          </div>
-          <div class="form-row mb-2">
-            <div class="form-group col-12 col-md-6 p-2">
-              <div class="bg_lightgrey p-2">
-                <label class="field_label" for="keyword3">Keyword 3<span class="text-danger">*</span></label>
-                <input type="text" class="form-control" name="keyword3" id="keyword3" required>
-              </div>
-            </div>
-            <div class="form-group col-12 col-md-6 p-2">
-              <div class="bg_lightgrey p-2">
-                <label class="field_label" for="keyword4">Keyword 4<span class="text-danger">*</span></label>
-                <input type="text" class="form-control" name="keyword4" id="keyword4" required>
-              </div>
-            </div>
-          </div>
-          <div class="text-center">
-            <button type="submit" class="btn submit_btn bg_prime text-white my-5 mx-auto"><strong>SUBMIT</strong></button>
-          </div>
-        </form>
+  <div class="container bg-white my-5 px-4" id="single_note_container">
+    <div class="row">
+      <div class="col-12 p-3">
+        <h1 class="font_oswald text_prime mb-3">Heading of the Note</h1>
+      </div>
+    </div>
+    <div class="row border-bottom-thin">
+      <div class="col-12 col-lg-4 mb-3">
+        <h5>Posted by <a href="http://example.com/" class="text_prime"><u>Username</u></a></h5>
+      </div>
+      <div class="col-12 col-lg-8 text-lg-right mb-3">
+        <p>
+          Keywrods : 
+          <span class="bg_lightgrey">keyword 1</span> , 
+          <span class="bg_lightgrey">keyword 2</span> , 
+          <span class="bg_lightgrey">keyword 3</span> , 
+          <span class="bg_lightgrey">keyword 4</span>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 mt-3 p-3">
+        <p class="font_cardo">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, 
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, 
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, 
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
       </div>
     </div>
   </div>
@@ -169,6 +154,7 @@
       </div>
     </div>
   </footer>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
