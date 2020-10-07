@@ -174,13 +174,13 @@ a{
   height: 50px;
   overflow: hidden;
 }
-.card_description{
+.card_sector{
   overflow: hidden;
-  height: 80px;
+  height: 60px;
 }
 .card_overview{
   overflow: hidden;
-  height: 80px;
+  height: 60px;
 }
 
 .carousel-control-prev
