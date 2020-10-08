@@ -290,11 +290,6 @@ a{
 }
 
 /* Dashboard CSS */
-#dashboard-header{
-  background-image: linear-gradient(to bottom, rgba(118,233,231,1), rgba(2,184,183,1));
-  background-size: 100% 100%;
-}
-
 .dashboard-card{
   border: 2px solid #31cdcc;
 }
@@ -324,6 +319,7 @@ a{
 
 .bg_prime_gradient{
   background-image: linear-gradient(to bottom, rgba(118,233,231,1), rgba(2,184,183,1));
+  background-size: 100% 100%;
 }
 
 .sticky_browse_div{
@@ -348,11 +344,6 @@ a{
 .note_body{
   overflow: hidden;
   height: 145px;
-}
-
-#browse_body{
-  background-image: linear-gradient(to bottom, rgba(118,233,231,1), rgba(2,184,183,1));
-  background-size: 100% 100%;
 }
 
 #post-req-btn{
