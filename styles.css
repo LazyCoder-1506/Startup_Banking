@@ -319,9 +319,10 @@ a{
 /* Browse Listings */
 .browse_listing_element{
   box-shadow: 0px 0px 10px gray;
+  border-radius: 25px;
 }
 
-.jumbotron{
+.bg_prime_gradient{
   background-image: linear-gradient(to bottom, rgba(49, 205, 204, 1), rgba(0,0,0,1));
 }
 
@@ -334,14 +335,6 @@ a{
 .browse_note{
   box-shadow: 0px 0px 10px gray;
   border-radius: 20px;
-}
-
-#search_div{
-  top: 50px;
-}
-
-#search_note{
-  width: 90%;
 }
 
 .note_head{
@@ -357,18 +350,12 @@ a{
   height: 145px;
 }
 
-@media (max-width: 999px) {
-  #search_note{
-    width: 80%;
-  }
-}
-@media (max-width: 599px) {
-  #search_note{
-    width: 60%;
-  }
-}
-
 #browse_body{
   background-image: linear-gradient(to bottom, rgba(118,233,231,1), rgba(2,184,183,1));
   background-size: 100% 100%;
+}
+
+#post-req-btn{
+  right: -50px;
+  bottom: 20vh;
 }

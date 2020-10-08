@@ -19,7 +19,7 @@
 	<link rel = "stylesheet" href="styles.css">
 </head>
 
-<body class="bg_prime pt-5">
+<body class="pt-5"  id="browse_body">
   <nav class="navbar navbar-light bg-white navbar-expand-sm fixed-top" id = "navigation_bar">    <!-- Navigation Bar -->
     <div class="container">
       <a class="navbar-brand mr-auto pr-3" href="#">Brand Logo</a>
@@ -42,7 +42,7 @@
     </div>
   </nav>
 
-  <div class="jumbotron bg-dark text-white mb-0">
+  <div class="jumbotron bg_prime_gradient text-white mb-0">
     <div class="container">
       <div class="col-12 col-lg-8 offset-lg-2 text-center">
         <h1 class="font_oswald mb-4">Header goes here</h1>
@@ -51,7 +51,7 @@
     </div>
   </div>
 
-  <div class="vw-100 sticky-top bg-secondary mb-5 py-3" id="search_div">
+  <div class="vw-100 sticky-top sticky_browse_div mb-5 py-3" id="search_div">
     <div class="container">
       <div class="row mx-0 mt-2" id="search_bar">
         <div class="col-12">
@@ -74,7 +74,7 @@
     <div class="row">
       <div class="col-12 col-lg-6 mb-5">
         <div class="browse_note bg-white p-3">
-          <h3 class="font_oswald text_prime note_head">Heading of the Note</h3>
+          <h3 class="font_oswald text-info note_head">Heading of the Note</h3>
           <p class="note_keywords">
             <span class="font_cardo">Keywords : </span>
             <span class="bg_lightgrey">keyword 1</span>, 
@@ -98,7 +98,7 @@
       </div>
       <div class="col-12 col-lg-6 mb-5">
         <div class="browse_note bg-white p-3">
-          <h3 class="font_oswald text_prime note_head">Heading of the Note</h3>
+          <h3 class="font_oswald text-info note_head">Heading of the Note</h3>
           <p class="note_keywords">
             <span class="font_cardo">Keywords : </span>
             <span class="bg_lightgrey">keyword 1</span>, 
@@ -122,7 +122,7 @@
       </div>
       <div class="col-12 col-lg-6 mb-5">
         <div class="browse_note bg-white p-3">
-          <h3 class="font_oswald text_prime note_head">Heading of the Note</h3>
+          <h3 class="font_oswald text-info note_head">Heading of the Note</h3>
           <p class="note_keywords">
             <span class="font_cardo">Keywords : </span>
             <span class="bg_lightgrey">keyword 1</span>, 
@@ -146,7 +146,7 @@
       </div>
       <div class="col-12 col-lg-6 mb-5">
         <div class="browse_note bg-white p-3">
-          <h3 class="font_oswald text_prime note_head">Heading of the Note</h3>
+          <h3 class="font_oswald text-info note_head">Heading of the Note</h3>
           <p class="note_keywords">
             <span class="font_cardo">Keywords : </span>
             <span class="bg_lightgrey">keyword 1</span>, 
@@ -167,6 +167,14 @@
             <a href="http://example.com/" class="btn bg-info text-white">View More</a>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-6 text-right">
+        <a href="http://example.com/" class="btn btn-lg bg_second text-info mx-2"><i class="fa fa-arrow-circle-left"></i> <strong>Previous</strong></a>
+      </div>
+      <div class="col-6">
+        <a href="http://example.com/" class="btn btn-lg bg_second text-info mx-2"><strong>Next</strong> <i class="fa fa-arrow-circle-right"></i></a>
       </div>
     </div>
   </div>

@@ -19,7 +19,7 @@
 	<link rel = "stylesheet" href="styles.css">
 </head>
 
-<body class="bg_prime pt-5">
+<body class="pt-5" id="browse_body">
   <nav class="navbar navbar-light bg-white navbar-expand-sm fixed-top" id = "navigation_bar">    <!-- Navigation Bar -->
     <div class="container">
       <a class="navbar-brand mr-auto pr-3" href="#">Brand Logo</a>
@@ -42,7 +42,9 @@
     </div>
   </nav>
 
-  <div class="jumbotron bg-dark text-white mb-0">
+  <a href="http://example.com/" class = "btn btn-sm bg-info fixed_right_button text-white" id = "post-req-btn">Post Requirements</a>
+
+  <div class="jumbotron bg_prime_gradient text-white mb-0">
     <div class="container">
       <div class="col-12 col-lg-8 offset-lg-2 text-center">
         <h1 class="font_oswald mb-4">Copy Header goes here</h1>
@@ -51,7 +53,7 @@
     </div>
   </div>
 
-  <div class="vw-100 sticky-top bg-secondary mb-5 py-3" id="browse_filter_div">
+  <div class="vw-100 sticky-top sticky_browse_div mb-5 py-3">
     <div class="container">
       <div class="row d-lg-none">
         <div class="col-12 text-center">
@@ -82,26 +84,6 @@
               </select>
             </div>
             <div class="form-grooup col-6 col-lg-2 mb-2">
-              <select class="form-control" name="sector" id="sector">
-                <option value="">Sector</option>
-                <option value="Option1">Option 1</option>
-                <option value="Option2">Option 2</option>
-                <option value="Option3">Option 3</option>
-                <option value="Option4">Option 4</option>
-                <option value="Option5">Option 5</option>
-              </select>
-            </div>
-            <div class="form-grooup col-6 col-lg-2 mb-2">
-              <select class="form-control" name="location" id="location">
-                <option value="">Location</option>
-                <option value="Option1">Option 1</option>
-                <option value="Option2">Option 2</option>
-                <option value="Option3">Option 3</option>
-                <option value="Option4">Option 4</option>
-                <option value="Option5">Option 5</option>
-              </select>
-            </div>
-            <div class="form-grooup col-6 col-lg-2 mb-2">
               <select class="form-control" name="profile_type" id="profile_type">
                 <option value="">Profile Type</option>
                 <option value="Option1">Option 1</option>
@@ -121,6 +103,12 @@
                 <option value="Option5">Option 5</option>
               </select>
             </div>
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <input type="text" name="location" id="location" class="form-control" placeholder="Location (Eg. Delhi)">
+            </div>
+            <div class="form-grooup col-6 col-lg-2 mb-2">
+              <input type="text" name="sector" id="sector" class="form-control" placeholder="Sector (Eg. IT)">
+            </div>
           </div>
           <div class="text-center">
             <button type="submit" class="btn bg_prime submit_btn text-white"><strong>Apply Filters</strong></button>
@@ -134,15 +122,17 @@
     <div class="row bg-white browse_listing_element mb-5">
       <div class="col-12 col-lg-10 border-bottom-thin border-right-thin">
         <div class="row border-bottom-thin pt-3">
-          <div class="col-3 col-lg-2 align-self-center">
+          <div class="col-3 col-lg-2 align-self-center text-center">
             <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png" alt="" class="w-100">
+            <br>
+            <span class="font_oswald text_prime d-lg-none mx-2">PRIME</span>
           </div>
           <div class="col-9 col-lg-10 align-self-center">
             <h3 class="font_oswald text-info mb-4">Title of the Listing Title of the Listing</h3>
             <h6>
-              <a href="http://example.com/" class="font_cardo text-danger mx-2"><i class="fa fa-warning"></i> <u>Report</u></a>
-              <a href="http://example.com/" class="font_cardo text-dark mx-2"><u>Doc Link</u></a>
-              <span class="font_oswald text_prime float-right mx-2">PRIME</span>
+              <a href="http://example.com/" class="font_cardo text-danger ml-5 mx-lg-2"><i class="fa fa-warning"></i> <u>Report</u></a>
+              <a href="http://example.com/" class="font_cardo text-dark ml-5"><u>Doc Link</u></a>
+              <span class="font_oswald text_prime d-none d-lg-block float-right mx-2">PRIME</span>
             </h6>
           </div>
         </div>
@@ -155,7 +145,7 @@
             <h5 class="font_oswald">Field 1</h5>
             <p class="font_cardo">Information of field 1</p>
             <h5 class="font_oswald">Field 2</h5>
-            <p class="font_cardo">Information of field 2</p>
+            <p class="font_cardo">Information of field 2 Information of field 2 Information of field 2</p>
           </div>
           <div class="col-12 col-lg-5 align-self-center text-center">
             <h5 class="font_oswald">Overview</h5>
@@ -181,15 +171,17 @@
     <div class="row bg-white browse_listing_element mb-5">
       <div class="col-12 col-lg-10 border-bottom-thin border-right-thin">
         <div class="row border-bottom-thin pt-3">
-          <div class="col-3 col-lg-2 align-self-center">
+          <div class="col-3 col-lg-2 align-self-center text-center">
             <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png" alt="" class="w-100">
+            <br>
+            <span class="font_oswald text_prime d-lg-none mx-2">PRIME</span>
           </div>
           <div class="col-9 col-lg-10 align-self-center">
             <h3 class="font_oswald text-info mb-4">Title of the Listing Title of the Listing</h3>
             <h6>
-              <a href="http://example.com/" class="font_cardo text-danger mx-2"><i class="fa fa-warning"></i> <u>Report</u></a>
-              <a href="http://example.com/" class="font_cardo text-dark mx-2"><u>Doc Link</u></a>
-              <span class="font_oswald text_prime float-right mx-2">PRIME</span>
+              <a href="http://example.com/" class="font_cardo text-danger ml-5 mx-lg-2"><i class="fa fa-warning"></i> <u>Report</u></a>
+              <a href="http://example.com/" class="font_cardo text-dark ml-5"><u>Doc Link</u></a>
+              <span class="font_oswald text_prime d-none d-lg-block float-right mx-2">PRIME</span>
             </h6>
           </div>
         </div>
@@ -202,7 +194,7 @@
             <h5 class="font_oswald">Field 1</h5>
             <p class="font_cardo">Information of field 1</p>
             <h5 class="font_oswald">Field 2</h5>
-            <p class="font_cardo">Information of field 2</p>
+            <p class="font_cardo">Information of field 2 Information of field 2 Information of field 2</p>
           </div>
           <div class="col-12 col-lg-5 align-self-center text-center">
             <h5 class="font_oswald">Overview</h5>
@@ -228,15 +220,17 @@
     <div class="row bg-white browse_listing_element mb-5">
       <div class="col-12 col-lg-10 border-bottom-thin border-right-thin">
         <div class="row border-bottom-thin pt-3">
-          <div class="col-3 col-lg-2 align-self-center">
+          <div class="col-3 col-lg-2 align-self-center text-center">
             <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png" alt="" class="w-100">
+            <br>
+            <span class="font_oswald text_prime d-lg-none mx-2">PRIME</span>
           </div>
           <div class="col-9 col-lg-10 align-self-center">
             <h3 class="font_oswald text-info mb-4">Title of the Listing Title of the Listing</h3>
             <h6>
-              <a href="http://example.com/" class="font_cardo text-danger mx-2"><i class="fa fa-warning"></i> <u>Report</u></a>
-              <a href="http://example.com/" class="font_cardo text-dark mx-2"><u>Doc Link</u></a>
-              <span class="font_oswald text_prime float-right mx-2">PRIME</span>
+              <a href="http://example.com/" class="font_cardo text-danger ml-5 mx-lg-2"><i class="fa fa-warning"></i> <u>Report</u></a>
+              <a href="http://example.com/" class="font_cardo text-dark ml-5"><u>Doc Link</u></a>
+              <span class="font_oswald text_prime d-none d-lg-block float-right mx-2">PRIME</span>
             </h6>
           </div>
         </div>
@@ -249,7 +243,7 @@
             <h5 class="font_oswald">Field 1</h5>
             <p class="font_cardo">Information of field 1</p>
             <h5 class="font_oswald">Field 2</h5>
-            <p class="font_cardo">Information of field 2</p>
+            <p class="font_cardo">Information of field 2 Information of field 2 Information of field 2</p>
           </div>
           <div class="col-12 col-lg-5 align-self-center text-center">
             <h5 class="font_oswald">Overview</h5>
@@ -278,15 +272,17 @@
     <div class="row bg-white browse_listing_element mb-5">
       <div class="col-12 col-lg-10 border-bottom-thin border-right-thin">
         <div class="row border-bottom-thin pt-3">
-          <div class="col-3 col-lg-2 align-self-center">
+          <div class="col-3 col-lg-2 align-self-center text-center">
             <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png" alt="" class="w-100">
+            <br>
+            <span class="font_oswald text_prime d-lg-none mx-2">PRIME</span>
           </div>
           <div class="col-9 col-lg-10 align-self-center">
             <h3 class="font_oswald text-info mb-4">Title of the Listing Title of the Listing</h3>
             <h6>
-              <a href="http://example.com/" class="font_cardo text-danger mx-2"><i class="fa fa-warning"></i> <u>Report</u></a>
-              <a href="http://example.com/" class="font_cardo text-dark mx-2"><u>Doc Link</u></a>
-              <span class="font_oswald text_prime float-right mx-2">PRIME</span>
+              <a href="http://example.com/" class="font_cardo text-danger ml-5 mx-lg-2"><i class="fa fa-warning"></i> <u>Report</u></a>
+              <a href="http://example.com/" class="font_cardo text-dark ml-5"><u>Doc Link</u></a>
+              <span class="font_oswald text_prime d-none d-lg-block float-right mx-2">PRIME</span>
             </h6>
           </div>
         </div>
@@ -299,7 +295,7 @@
             <h5 class="font_oswald">Field 1</h5>
             <p class="font_cardo">Information of field 1</p>
             <h5 class="font_oswald">Field 2</h5>
-            <p class="font_cardo">Information of field 2</p>
+            <p class="font_cardo">Information of field 2 Information of field 2 Information of field 2</p>
           </div>
           <div class="col-12 col-lg-5 align-self-center text-center">
             <h5 class="font_oswald">Overview</h5>
@@ -325,15 +321,17 @@
     <div class="row bg-white browse_listing_element mb-5">
       <div class="col-12 col-lg-10 border-bottom-thin border-right-thin">
         <div class="row border-bottom-thin pt-3">
-          <div class="col-3 col-lg-2 align-self-center">
+          <div class="col-3 col-lg-2 align-self-center text-center">
             <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17784433631581665208-512.png" alt="" class="w-100">
+            <br>
+            <span class="font_oswald text_prime d-lg-none mx-2">PRIME</span>
           </div>
           <div class="col-9 col-lg-10 align-self-center">
             <h3 class="font_oswald text-info mb-4">Title of the Listing Title of the Listing</h3>
             <h6>
-              <a href="http://example.com/" class="font_cardo text-danger mx-2"><i class="fa fa-warning"></i> <u>Report</u></a>
-              <a href="http://example.com/" class="font_cardo text-dark mx-2"><u>Doc Link</u></a>
-              <span class="font_oswald text_prime float-right mx-2">PRIME</span>
+              <a href="http://example.com/" class="font_cardo text-danger ml-5 mx-lg-2"><i class="fa fa-warning"></i> <u>Report</u></a>
+              <a href="http://example.com/" class="font_cardo text-dark ml-5"><u>Doc Link</u></a>
+              <span class="font_oswald text_prime d-none d-lg-block float-right mx-2">PRIME</span>
             </h6>
           </div>
         </div>
@@ -346,7 +344,7 @@
             <h5 class="font_oswald">Field 1</h5>
             <p class="font_cardo">Information of field 1</p>
             <h5 class="font_oswald">Field 2</h5>
-            <p class="font_cardo">Information of field 2</p>
+            <p class="font_cardo">Information of field 2 Information of field 2 Information of field 2</p>
           </div>
           <div class="col-12 col-lg-5 align-self-center text-center">
             <h5 class="font_oswald">Overview</h5>
@@ -367,6 +365,12 @@
             <a href="http://example.com" class="btn bg-info text-white"><strong>Explore</strong></a>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <a href="http://example.com/" class="btn btn-lg bg_second text-info mx-2"><i class="fa fa-arrow-circle-left"></i> <strong>Previous</strong></a>
+        <a href="http://example.com/" class="btn btn-lg bg_second text-info mx-2"><strong>Next</strong> <i class="fa fa-arrow-circle-right"></i></a>
       </div>
     </div>
   </div>
