@@ -356,8 +356,9 @@ a{
 }
 
 #post-req-btn{
-  right: -52px;
+  right: -55px;
   bottom: 20vh;
+  z-index: 50;
 }
 
 select{
