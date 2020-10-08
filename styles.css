@@ -323,7 +323,7 @@ a{
 }
 
 .bg_prime_gradient{
-  background-image: linear-gradient(to bottom, rgba(49, 205, 204, 1), rgba(0,0,0,1));
+  background-image: linear-gradient(to bottom, rgba(118,233,231,1), rgba(2,184,183,1));
 }
 
 .sticky_browse_div{
@@ -358,7 +358,7 @@ a{
 #post-req-btn{
   right: -55px;
   bottom: 20vh;
-  z-index: 50;
+  z-index: 50000;
 }
 
 select{
