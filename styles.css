@@ -361,6 +361,10 @@ a{
   z-index: 50000;
 }
 
+.filter_btn{
+  box-shadow: none;
+}
+
 select{
   -webkit-appearance: none;
   -moz-appearance: none;
