@@ -104,7 +104,10 @@
         <div class="container w-100 px-0">
           <div class="row">
             <div class="col-12">
-                                        <!-- Build section carousel (desktop view) -->
+              <!--
+                Build section carousel (desktop view)
+                2 slides carousel
+              -->
               <div id="build_carousel" class="carousel carousel_pc slide w-100 d-none d-lg-block" data-ride="carousel" data-interval="3000">
                 <div class="carousel-inner w-100 mx-0" role="listbox">
                   <div class="carousel-item active">    <!-- listing 1 -->
@@ -2617,6 +2620,10 @@
       }
     }
     </script>
+
+    <!--
+      Below script is required for multiple slide carousel
+    -->
     <script>
       $('.carousel_pc .carousel-item').each(function(){
 				var next = $(this).next();

@@ -217,7 +217,9 @@ a{
 
 /* Carousel */
 @media (min-width: 900px) {
-
+  /*
+  This part is for the 2-slide carousel on desktop
+  */
   .carousel-inner .carousel-item.active, .carousel-inner .carousel-item-next, .carousel-inner .carousel-item-prev {
     display: flex;
   }
@@ -231,6 +233,9 @@ a{
     transform: translateX(0);
   }
 
+  /*
+  This part is for the 3-slide carousel on desktop
+  */
   #notes_carousel .triple_slide .carousel-item.active, .triple_slide .carousel-item-next, .triple_slide .carousel-item-prev {
     display: flex;
   }
